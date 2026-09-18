@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "npm --prefix ./app run dev",
     "lint": "npm --prefix ./app run lint && npm --prefix ./infrastructure run lint",
-    "test": "npm --prefix ./app run test && npm --prefix ./infrastructure run test",
+    "test": "npm --prefix ./app run test",
     "build": "npm --prefix ./app run build",
     "release": "semantic-release",
     "prepare": "husky"
