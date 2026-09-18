@@ -33,11 +33,11 @@
           "order": 1,
           "title": "Arrastre corto",
           "level": "Básico",
-          "implemento": "Trapo anudado o piel de arrastre (drag toy).",
+          "implemento": "Trapo anudado o doly (drag toy).",
           "descripcion": "El manejador arrastra el objeto por el suelo, 2-3 metros, en línea recta y a baja velocidad, frente al perro contenido (sostenido del arnés o collar por un ayudante). Se suelta al perro justo cuando el objeto está en movimiento.",
           "criterio": "El perro se dispara sin dudar en cuanto ve el movimiento, sin necesidad de que el manejador lo incite con voz.",
           "fields": {
-            "Implemento": "Trapo anudado o piel de arrastre (drag toy).",
+            "Implemento": "Trapo anudado o doly (drag toy).",
             "Descripción": "El manejador arrastra el objeto por el suelo, 2-3 metros, en línea recta y a baja velocidad, frente al perro contenido (sostenido del arnés o collar por un ayudante). Se suelta al perro justo cuando el objeto está en movimiento.",
             "Criterio para avanzar": "El perro se dispara sin dudar en cuanto ve el movimiento, sin necesidad de que el manejador lo incite con voz."
           }
