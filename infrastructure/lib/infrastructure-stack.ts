@@ -75,10 +75,23 @@ export class BoardWebsiteStack extends cdk.Stack {
       layers: [webAdapterLayer],
     });
 
-    return fn.addFunctionUrl({
+    const functionUrl = fn.addFunctionUrl({
       authType: cdk.aws_lambda.FunctionUrlAuthType.NONE,
       invokeMode: cdk.aws_lambda.InvokeMode.RESPONSE_STREAM,
     });
+
+    // Since Oct 2025, AWS requires BOTH lambda:InvokeFunctionUrl (added
+    // automatically above for authType NONE) and lambda:InvokeFunction on
+    // the resource policy for a public Function URL — without the latter,
+    // every caller (including CloudFront) gets 403 "Forbidden" even though
+    // the URL itself is public. This CDK version's addFunctionUrl() only
+    // adds the first one. https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html
+    fn.addPermission("invoke-function", {
+      principal: new cdk.aws_iam.AnyPrincipal(),
+      action: "lambda:InvokeFunction",
+    });
+
+    return functionUrl;
   }
 
   buildDistribution(
