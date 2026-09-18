@@ -1,6 +1,8 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
 import { AppEnv } from "./env.config";
+import { DynamoTable } from "./constructs/dynamo-table";
+import { LambdaFunction } from "./constructs/lambda-function";
 
 interface AppStackProps extends cdk.StackProps {
   readonly envConfig: AppEnv;
@@ -8,8 +10,9 @@ interface AppStackProps extends cdk.StackProps {
 
 // Same shape as citius's SsrWebsiteStack (Lambda + aws-lambda-web-adapter +
 // Function URL, fronted by CloudFront) minus what this app doesn't need:
-// no VPC/security groups (no private DB to reach), no DynamoDB cache table
-// (no ISR/revalidation — citius itself runs with DISABLED_CACHE anyway), no
+// no VPC/security groups (DynamoDB is reached over its public endpoint), no
+// DynamoDB cache table (no ISR/revalidation — citius itself runs with
+// DISABLED_CACHE anyway; the one table here holds training sessions), no
 // Route53/ACM (no domain yet, see the CfnOutput below for the CloudFront
 // URL to use meanwhile).
 export class BoardWebsiteStack extends cdk.Stack {
@@ -18,9 +21,21 @@ export class BoardWebsiteStack extends cdk.Stack {
 
     const staticAssetsBucket = this.buildStaticAssetsBucket(id);
 
-    const functionUrl = this.buildFunctionUrl(props.envConfig);
+    const sessions = new DynamoTable(this, "SessionsTable", {
+      // Name must match TABLE_NAME in app/src/lib/actions/sessions.ts.
+      tableName: `training-sessions-${props.envConfig.stage}`,
+      partitionKey: { name: "id", type: cdk.aws_dynamodb.AttributeType.STRING },
+      retain: true, // user data, unlike citius's disposable cache table
+      pointInTimeRecovery: props.envConfig.stage === "main",
+    });
 
-    const distribution = this.buildDistribution(functionUrl, staticAssetsBucket);
+    // Id "Default" keeps this construct's children out of their logical IDs, so
+    // the already-deployed role keeps its ID instead of being replaced (it has
+    // a fixed name, so replacement would fail). Only one child per scope can use it.
+    const ssr = this.buildSsrLambda(props.envConfig);
+    sessions.table.grantReadWriteData(ssr.function);
+
+    const distribution = this.buildDistribution(ssr.functionUrl!, staticAssetsBucket);
 
     this.deployStaticAssets(staticAssetsBucket, distribution);
 
@@ -38,32 +53,22 @@ export class BoardWebsiteStack extends cdk.Stack {
     });
   }
 
-  buildFunctionUrl(envConfig: AppEnv): cdk.aws_lambda.FunctionUrl {
+  buildSsrLambda(envConfig: AppEnv): LambdaFunction {
     // https://github.com/awslabs/aws-lambda-web-adapter — lets the
     // standalone Next.js server (a plain Node HTTP server, `node server.js`)
     // run inside Lambda unmodified instead of needing a custom handler.
-    const role = new cdk.aws_iam.Role(this, "lambda-role", {
-      roleName: `board-lambda-role-${envConfig.stage}`,
-      assumedBy: new cdk.aws_iam.ServicePrincipal("lambda.amazonaws.com"),
-    });
-    role.addManagedPolicy(
-      cdk.aws_iam.ManagedPolicy.fromAwsManagedPolicyName("service-role/AWSLambdaBasicExecutionRole"),
-    );
-
     const webAdapterLayer = cdk.aws_lambda.LayerVersion.fromLayerVersionArn(
       this,
       "web-adapter-layer",
       `arn:aws:lambda:${this.region}:753240598075:layer:LambdaAdapterLayerX86:24`,
     );
 
-    const fn = new cdk.aws_lambda.Function(this, "ssr-app-lambda", {
-      runtime: cdk.aws_lambda.Runtime.NODEJS_22_X,
-      architecture: cdk.aws_lambda.Architecture.X86_64,
+    return new LambdaFunction(this, "Default", {
+      roleName: `board-lambda-role-${envConfig.stage}`,
       code: cdk.aws_lambda.Code.fromAsset("../app/.next/standalone"),
       handler: "run.sh",
       memorySize: 512,
       timeout: cdk.Duration.seconds(30),
-      role,
       environment: {
         STAGE: envConfig.stage,
         AWS_LAMBDA_EXEC_WRAPPER: "/opt/bootstrap",
@@ -73,25 +78,8 @@ export class BoardWebsiteStack extends cdk.Stack {
       logRetention:
         envConfig.stage === "main" ? cdk.aws_logs.RetentionDays.ONE_MONTH : cdk.aws_logs.RetentionDays.ONE_WEEK,
       layers: [webAdapterLayer],
+      publicUrl: true,
     });
-
-    const functionUrl = fn.addFunctionUrl({
-      authType: cdk.aws_lambda.FunctionUrlAuthType.NONE,
-      invokeMode: cdk.aws_lambda.InvokeMode.RESPONSE_STREAM,
-    });
-
-    // Since Oct 2025, AWS requires BOTH lambda:InvokeFunctionUrl (added
-    // automatically above for authType NONE) and lambda:InvokeFunction on
-    // the resource policy for a public Function URL — without the latter,
-    // every caller (including CloudFront) gets 403 "Forbidden" even though
-    // the URL itself is public. This CDK version's addFunctionUrl() only
-    // adds the first one. https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html
-    fn.addPermission("invoke-function", {
-      principal: new cdk.aws_iam.AnyPrincipal(),
-      action: "lambda:InvokeFunction",
-    });
-
-    return functionUrl;
   }
 
   buildDistribution(
