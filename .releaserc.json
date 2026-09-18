@@ -1,0 +1,20 @@
+{
+  "branches": ["main"],
+  "tagFormat": "v${version}",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "node scripts/bump-monorepo-versions.js ${nextRelease.version}"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["app/package.json"],
+        "message": "chore: bump version to ${nextRelease.version} [skip deploy]"
+      }
+    ]
+  ]
+}

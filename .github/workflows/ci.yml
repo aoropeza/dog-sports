@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  # Conventional Commits are only enforced locally via the Husky commit-msg
+  # hook, which is bypassable (--no-verify, GitHub's web merge editor). Now
+  # that semantic-release derives the release version from commit types
+  # (fix:/feat:/BREAKING CHANGE:) in cd.yml, a bad commit message here isn't
+  # just a style nit — it silently breaks versioning on merge to main.
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Install root dependencies
+        run: npm install
+
+      - name: Lint commits
+        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Install App Dependencies
+        run: npm install
+        working-directory: app
+
+      - name: Install Infrastructure Dependencies
+        run: npm install
+        working-directory: infrastructure
+
+      - name: Lint
+        run: npm run lint
+        working-directory: app
+
+      - name: Lint Infrastructure
+        run: npm run lint
+        working-directory: infrastructure
+
+      - name: Test
+        run: npm test
+        working-directory: app
+
+      - name: Test Infrastructure
+        run: npm test
+        working-directory: infrastructure
+
+      - name: Build App
+        run: npm run build
+        working-directory: app
+
+      # Catches CDK code errors (bad construct props, etc.) before merge —
+      # doesn't touch AWS, just renders the CloudFormation template locally.
+      # Needs app/.next/standalone and app/.next/static to exist first —
+      # BucketDeployment/Lambda Code.fromAsset resolve those paths at synth
+      # time, before any AWS call.
+      - name: CDK Synth
+        run: npm run synth
+        working-directory: infrastructure
+        env:
+          STAGE: develop

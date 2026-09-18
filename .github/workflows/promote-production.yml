@@ -1,0 +1,55 @@
+name: Promote to production
+
+# Manual gate: a human opens Actions -> this workflow -> Run workflow. No
+# SHA needs to be typed — when you dispatch this, GitHub lets you pick the
+# branch (defaults to main) and github.sha already resolves to that
+# branch's tip, which cd.yml's build-and-package job already built and
+# uploaded. The `sha` input only exists to roll back to an older,
+# already-staged commit if you ever need to.
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: >
+          Commit SHA to promote (must have already gone through
+          deploy-staging, i.e. its build artifact exists in S3). Leave empty
+          to promote the tip of the branch you're running this on.
+        required: false
+
+jobs:
+  deploy-production:
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: production-deploy
+      cancel-in-progress: false
+    env:
+      STAGE: main
+      ARTIFACTS_BUCKET: ${{ vars.CI_ARTIFACTS_BUCKET || 'canine-sports-board-ci-artifacts' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Resolve target SHA
+        id: target
+        run: echo "sha=${{ inputs.sha || github.sha }}" >> "$GITHUB_OUTPUT"
+
+      - uses: ./.github/actions/fetch-build-artifact
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          bucket: ${{ env.ARTIFACTS_BUCKET }}
+          sha: ${{ steps.target.outputs.sha }}
+
+      - name: Install Infrastructure Dependencies
+        run: npm install
+        working-directory: infrastructure
+
+      - name: CDK Synth
+        run: npm run synth
+        working-directory: infrastructure
+
+      - name: CDK Deploy
+        run: npm run deploy
+        working-directory: infrastructure

@@ -1,0 +1,30 @@
+name: Fetch build artifact
+description: >
+  Configure AWS credentials and download + extract the shared build.tar.gz
+  produced once by build-and-package, for the given commit SHA — deploy jobs
+  use this instead of rebuilding from source, so what reaches production is
+  byte-for-byte what was already tested in staging.
+
+inputs:
+  aws-access-key-id:
+    required: true
+  aws-secret-access-key:
+    required: true
+  bucket:
+    required: true
+  sha:
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ inputs.aws-access-key-id }}
+        aws-secret-access-key: ${{ inputs.aws-secret-access-key }}
+        aws-region: us-east-1
+
+    - shell: bash
+      run: |
+        aws s3 cp "s3://${{ inputs.bucket }}/builds/${{ inputs.sha }}.tar.gz" build.tar.gz
+        tar -xzf build.tar.gz

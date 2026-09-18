@@ -1,0 +1,149 @@
+name: CD
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Install App Dependencies
+        run: npm install
+        working-directory: app
+
+      - name: Install Infrastructure Dependencies
+        run: npm install
+        working-directory: infrastructure
+
+      - name: Lint
+        run: npm run lint
+        working-directory: app
+
+      - name: Lint Infrastructure
+        run: npm run lint
+        working-directory: infrastructure
+
+      - name: Test
+        run: npm test
+        working-directory: app
+
+      - name: Test Infrastructure
+        run: npm test
+        working-directory: infrastructure
+
+  # Tags the release, builds the app once, and uploads a single artifact
+  # keyed by the resulting commit SHA (see "Resolve target SHA" below — not
+  # necessarily github.sha). deploy-staging here, and promote-production.yml
+  # when run manually, both deploy this exact artifact — nothing gets
+  # rebuilt between environments.
+  build-and-package:
+    needs: test
+    if: ${{ !contains(github.event.head_commit.message, '[skip deploy]') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      target_sha: ${{ steps.target.outputs.sha }}
+    env:
+      ARTIFACTS_BUCKET: ${{ vars.CI_ARTIFACTS_BUCKET || 'canine-sports-board-ci-artifacts' }}
+    steps:
+      # Uses the default GITHUB_TOKEN, not a PAT: this repo has no branch
+      # protection requiring a bypass-capable identity to push straight to
+      # main. If that changes later (a ruleset with no GITHUB_TOKEN bypass),
+      # this push step — and only this step — will need a PAT again, same
+      # as citius's RELEASE_TOKEN.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: ./.github/actions/setup-node-env
+
+      - name: Install root dependencies (semantic-release)
+        run: npm install
+
+      # Bumps app/package.json to the version derived from Conventional
+      # Commits (scripts/bump-monorepo-versions.js), tags, commits, and
+      # pushes — BEFORE the build below, so the version baked into the
+      # client bundle is already correct and never needs rebuilding at
+      # promotion time. No-ops cleanly if there's nothing releasable since
+      # the last tag. HUSKY=0 skips the local git hooks (pre-commit/commit
+      # -msg) for the `git commit` @semantic-release/git runs here — a
+      # bot-generated, version-only commit doesn't need a human lint gate.
+      - name: Compute version and tag release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HUSKY: "0"
+        run: npx semantic-release
+
+      # semantic-release may have just pushed a new commit (the version
+      # bump) on top of the one that triggered this workflow — that new
+      # commit, not github.sha, is now the tip of main. Key the artifact by
+      # it so promote-production.yml's default (tip of the branch you
+      # dispatch on) finds it without needing an explicit sha input.
+      - name: Resolve target SHA
+        id: target
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Install App Dependencies
+        run: npm install
+        working-directory: app
+
+      # `output: "standalone"` in app/next.config.ts + the postbuild script
+      # (app/package.json) that copies public/ and .next/static into
+      # .next/standalone and writes run.sh for aws-lambda-web-adapter.
+      - name: Build App
+        run: npm run build
+        working-directory: app
+
+      - name: Package build artifact
+        run: |
+          tar -czf build.tar.gz app/.next/standalone app/.next/static
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Upload build artifact to S3
+        run: aws s3 cp build.tar.gz "s3://${ARTIFACTS_BUCKET}/builds/${{ steps.target.outputs.sha }}.tar.gz"
+
+  # No SSM/secret-fetch step here: `cdk deploy` resolves everything itself
+  # from env.config.ts for STAGE=develop — nothing in this job reads
+  # environment-specific values from the shell.
+  deploy-staging:
+    needs: build-and-package
+    runs-on: ubuntu-latest
+    environment: staging
+    env:
+      STAGE: develop
+      ARTIFACTS_BUCKET: ${{ vars.CI_ARTIFACTS_BUCKET || 'canine-sports-board-ci-artifacts' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-node-env
+
+      - uses: ./.github/actions/fetch-build-artifact
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          bucket: ${{ env.ARTIFACTS_BUCKET }}
+          sha: ${{ needs.build-and-package.outputs.target_sha }}
+
+      - name: Install Infrastructure Dependencies
+        run: npm install
+        working-directory: infrastructure
+
+      - name: CDK Synth
+        run: npm run synth
+        working-directory: infrastructure
+
+      - name: CDK Deploy
+        run: npm run deploy
+        working-directory: infrastructure
