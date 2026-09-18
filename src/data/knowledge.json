@@ -1,0 +1,1820 @@
+{
+  "generatedAt": "2026-09-18T01:01:27.888Z",
+  "source": "knowledge/*.md",
+  "closingNote": "La presa es la motivación para alcanzar el objeto; la mordida es la técnica para agarrarlo y transportarlo.",
+  "stats": {
+    "pillarCount": 9,
+    "exerciseCount": 107
+  },
+  "pillars": [
+    {
+      "id": "presa",
+      "name": "Presa",
+      "color": "amber",
+      "tagline": "Las ganas de perseguir.",
+      "description": "Detectar, perseguir y alcanzar un objeto en movimiento. Aquí trabajas la motivación y la respuesta al estímulo, antes de la técnica de agarre.",
+      "observe": "Observa el interés por el objeto y la disposición a perseguir.",
+      "generalNotes": [],
+      "levelObjectives": {
+        "Básico": "despertar y afirmar el interés por perseguir/cazar el objeto, en corto y sin presión.",
+        "Intermedio": "aumentar distancia, velocidad y variedad de estímulo; introducir cambios de dirección.",
+        "Avanzado": "sostener el impulso bajo presión, distracción o espera prolongada, simulando condiciones de competencia."
+      },
+      "levelCounts": {
+        "Básico": 4,
+        "Intermedio": 4,
+        "Avanzado": 4
+      },
+      "exerciseCount": 12,
+      "exercises": [
+        {
+          "id": "presa-01",
+          "pillarId": "presa",
+          "order": 1,
+          "title": "Arrastre corto",
+          "level": "Básico",
+          "implemento": "Trapo anudado o piel de arrastre (drag toy).",
+          "descripcion": "El manejador arrastra el objeto por el suelo, 2-3 metros, en línea recta y a baja velocidad, frente al perro contenido (sostenido del arnés o collar por un ayudante). Se suelta al perro justo cuando el objeto está en movimiento.",
+          "criterio": "El perro se dispara sin dudar en cuanto ve el movimiento, sin necesidad de que el manejador lo incite con voz.",
+          "fields": {
+            "Implemento": "Trapo anudado o piel de arrastre (drag toy).",
+            "Descripción": "El manejador arrastra el objeto por el suelo, 2-3 metros, en línea recta y a baja velocidad, frente al perro contenido (sostenido del arnés o collar por un ayudante). Se suelta al perro justo cuando el objeto está en movimiento.",
+            "Criterio para avanzar": "El perro se dispara sin dudar en cuanto ve el movimiento, sin necesidad de que el manejador lo incite con voz."
+          }
+        },
+        {
+          "id": "presa-02",
+          "pillarId": "presa",
+          "order": 2,
+          "title": "Tira y afloja simple (tug)",
+          "level": "Básico",
+          "implemento": "Juguete de tela o cuerda con nudos.",
+          "descripcion": "El manejador presenta el juguete a la altura del hocico del perro, lo mueve lateralmente para provocar el enganche, y sostiene un breve tira y afloja una vez que el perro muerde.",
+          "criterio": "El perro muerde con decisión desde el primer intento y sostiene el jaloneo sin soltar.",
+          "fields": {
+            "Implemento": "Juguete de tela o cuerda con nudos.",
+            "Descripción": "El manejador presenta el juguete a la altura del hocico del perro, lo mueve lateralmente para provocar el enganche, y sostiene un breve tira y afloja una vez que el perro muerde.",
+            "Criterio para avanzar": "El perro muerde con decisión desde el primer intento y sostiene el jaloneo sin soltar."
+          }
+        },
+        {
+          "id": "presa-03",
+          "pillarId": "presa",
+          "order": 3,
+          "title": "Pelota rodada",
+          "level": "Básico",
+          "implemento": "Pelota de tenis o de goma.",
+          "descripcion": "El manejador rueda la pelota en línea recta a 2-3 metros frente al perro, sobre superficie plana. El perro debe salir tras ella de inmediato.",
+          "criterio": "El perro persigue sin titubear y agarra la pelota en movimiento (no espera a que se detenga).",
+          "fields": {
+            "Implemento": "Pelota de tenis o de goma.",
+            "Descripción": "El manejador rueda la pelota en línea recta a 2-3 metros frente al perro, sobre superficie plana. El perro debe salir tras ella de inmediato.",
+            "Criterio para avanzar": "El perro persigue sin titubear y agarra la pelota en movimiento (no espera a que se detenga)."
+          }
+        },
+        {
+          "id": "presa-04",
+          "pillarId": "presa",
+          "order": 4,
+          "title": "Señuelo de mano",
+          "level": "Básico",
+          "implemento": "Peluche pequeño o mordedor blando.",
+          "descripcion": "El manejador mueve el juguete con la mano cerca del suelo, en pequeños movimientos rápidos (simulando presa herida), para provocar el \"enganche\" visual antes de soltarlo a 1-2 metros.",
+          "criterio": "El perro fija la mirada en el objeto en menos de 1 segundo tras iniciar el movimiento.",
+          "fields": {
+            "Implemento": "Peluche pequeño o mordedor blando.",
+            "Descripción": "El manejador mueve el juguete con la mano cerca del suelo, en pequeños movimientos rápidos (simulando presa herida), para provocar el \"enganche\" visual antes de soltarlo a 1-2 metros.",
+            "Criterio para avanzar": "El perro fija la mirada en el objeto en menos de 1 segundo tras iniciar el movimiento."
+          }
+        },
+        {
+          "id": "presa-05",
+          "pillarId": "presa",
+          "order": 5,
+          "title": "Vara de señuelo en zigzag (flirt pole)",
+          "level": "Intermedio",
+          "implemento": "Vara de señuelo (flirt pole) con cuerda y juguete de piel/felpa en la punta.",
+          "descripcion": "El manejador mueve la vara en patrón de zigzag frente al perro, obligándolo a ajustar trayectoria y velocidad en plena persecución, sin perder el enganche visual.",
+          "criterio": "El perro mantiene el enganche durante todos los cambios de dirección sin desconectarse del objeto.",
+          "fields": {
+            "Implemento": "Vara de señuelo (flirt pole) con cuerda y juguete de piel/felpa en la punta.",
+            "Descripción": "El manejador mueve la vara en patrón de zigzag frente al perro, obligándolo a ajustar trayectoria y velocidad en plena persecución, sin perder el enganche visual.",
+            "Criterio para avanzar": "El perro mantiene el enganche durante todos los cambios de dirección sin desconectarse del objeto."
+          }
+        },
+        {
+          "id": "presa-06",
+          "pillarId": "presa",
+          "order": 6,
+          "title": "Persecución a distancia media",
+          "level": "Intermedio",
+          "implemento": "Disco o mordedor de goma.",
+          "descripcion": "El objeto se lanza a 5-8 metros; se evalúa velocidad de arranque desde posición de espera y sostenimiento del impulso durante todo el trayecto.",
+          "criterio": "El perro alcanza velocidad máxima dentro de los primeros 2 metros de carrera.",
+          "fields": {
+            "Implemento": "Disco o mordedor de goma.",
+            "Descripción": "El objeto se lanza a 5-8 metros; se evalúa velocidad de arranque desde posición de espera y sostenimiento del impulso durante todo el trayecto.",
+            "Criterio para avanzar": "El perro alcanza velocidad máxima dentro de los primeros 2 metros de carrera."
+          }
+        },
+        {
+          "id": "presa-07",
+          "pillarId": "presa",
+          "order": 7,
+          "title": "Doble estímulo",
+          "level": "Intermedio",
+          "implemento": "Dos juguetes distintos (ej. kong y pelota).",
+          "descripcion": "El manejador activa (mueve) los dos objetos alternadamente a ambos lados del perro; el perro debe decidir rápido a cuál ir sin quedarse paralizado entre ambos.",
+          "criterio": "El perro decide en menos de 2 segundos y persigue con la misma intensidad sin importar cuál objeto se activó.",
+          "fields": {
+            "Implemento": "Dos juguetes distintos (ej. kong y pelota).",
+            "Descripción": "El manejador activa (mueve) los dos objetos alternadamente a ambos lados del perro; el perro debe decidir rápido a cuál ir sin quedarse paralizado entre ambos.",
+            "Criterio para avanzar": "El perro decide en menos de 2 segundos y persigue con la misma intensidad sin importar cuál objeto se activó."
+          }
+        },
+        {
+          "id": "presa-08",
+          "pillarId": "presa",
+          "order": 8,
+          "title": "Persecución con obstáculo simple",
+          "level": "Intermedio",
+          "implemento": "Mordedor de goma o disco + cono/tubo bajo como obstáculo.",
+          "descripcion": "El objeto se mueve detrás de un obstáculo bajo, obligando al perro a rodearlo sin perder el enganche ni desviar la atención hacia el obstáculo mismo.",
+          "criterio": "El perro rodea el obstáculo sin frenar ni perder de vista el objeto.",
+          "fields": {
+            "Implemento": "Mordedor de goma o disco + cono/tubo bajo como obstáculo.",
+            "Descripción": "El objeto se mueve detrás de un obstáculo bajo, obligando al perro a rodearlo sin perder el enganche ni desviar la atención hacia el obstáculo mismo.",
+            "Criterio para avanzar": "El perro rodea el obstáculo sin frenar ni perder de vista el objeto."
+          }
+        },
+        {
+          "id": "presa-09",
+          "pillarId": "presa",
+          "order": 9,
+          "title": "Espera y liberación tardía",
+          "level": "Avanzado",
+          "implemento": "Cualquier juguete de alto valor para el perro.",
+          "descripcion": "El perro se mantiene en posición de espera (sentado o parado en la línea) mientras el manejador mueve y activa el juguete a distancia; se libera solo a la orden del manejador, no cuando el perro decide.",
+          "criterio": "El perro sostiene la espera sin romper posición, y arranca a máxima intensidad en cuanto se le da la orden.",
+          "fields": {
+            "Implemento": "Cualquier juguete de alto valor para el perro.",
+            "Descripción": "El perro se mantiene en posición de espera (sentado o parado en la línea) mientras el manejador mueve y activa el juguete a distancia; se libera solo a la orden del manejador, no cuando el perro decide.",
+            "Criterio para avanzar": "El perro sostiene la espera sin romper posición, y arranca a máxima intensidad en cuanto se le da la orden."
+          }
+        },
+        {
+          "id": "presa-10",
+          "pillarId": "presa",
+          "order": 10,
+          "title": "Persecución con distracción activa",
+          "level": "Avanzado",
+          "implemento": "Mordedor de piel o vara de señuelo (flirt pole), a distancia larga.",
+          "descripcion": "Se activa la persecución con otro perro, ruido o gente presente cerca de la línea de trabajo, para que el perro aprenda a mantener el foco en el objeto pese al entorno.",
+          "criterio": "El perro ignora la distracción y mantiene la misma intensidad de persecución que en un entorno sin ruido.",
+          "fields": {
+            "Implemento": "Mordedor de piel o vara de señuelo (flirt pole), a distancia larga.",
+            "Descripción": "Se activa la persecución con otro perro, ruido o gente presente cerca de la línea de trabajo, para que el perro aprenda a mantener el foco en el objeto pese al entorno.",
+            "Criterio para avanzar": "El perro ignora la distracción y mantiene la misma intensidad de persecución que en un entorno sin ruido."
+          }
+        },
+        {
+          "id": "presa-11",
+          "pillarId": "presa",
+          "order": 11,
+          "title": "Multi-cambios de dirección a máxima distancia",
+          "level": "Avanzado",
+          "implemento": "Vara de señuelo (flirt pole) o señuelo remolcado (drag lure).",
+          "descripcion": "El manejador mueve el objeto en trayectoria irregular a 10+ metros, con al menos 3 cambios de dirección durante la persecución.",
+          "criterio": "El perro sostiene velocidad máxima y enganche visual en todos los cambios, sin bajar el ritmo.",
+          "fields": {
+            "Implemento": "Vara de señuelo (flirt pole) o señuelo remolcado (drag lure).",
+            "Descripción": "El manejador mueve el objeto en trayectoria irregular a 10+ metros, con al menos 3 cambios de dirección durante la persecución.",
+            "Criterio para avanzar": "El perro sostiene velocidad máxima y enganche visual en todos los cambios, sin bajar el ritmo."
+          }
+        },
+        {
+          "id": "presa-12",
+          "pillarId": "presa",
+          "order": 12,
+          "title": "Integración con el objeto de competencia",
+          "level": "Avanzado",
+          "implemento": "Pelota oficial de flyball + caja.",
+          "descripcion": "El manejador transfiere el mismo nivel de intensidad trabajado en los ejercicios anteriores hacia la pelota real, en el contexto de la caja, para consolidar que la presa se active igual de fuerte con el objeto de competencia.",
+          "criterio": "La intensidad de presa hacia la pelota de competencia iguala o supera la mostrada con los señuelos de entrenamiento.",
+          "fields": {
+            "Implemento": "Pelota oficial de flyball + caja.",
+            "Descripción": "El manejador transfiere el mismo nivel de intensidad trabajado en los ejercicios anteriores hacia la pelota real, en el contexto de la caja, para consolidar que la presa se active igual de fuerte con el objeto de competencia.",
+            "Criterio para avanzar": "La intensidad de presa hacia la pelota de competencia iguala o supera la mostrada con los señuelos de entrenamiento."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mordida",
+      "name": "Mordida",
+      "color": "rose",
+      "tagline": "Agarrar, sostener y transportar.",
+      "description": "La mecánica del agarre: cómo toma el objeto, lo sostiene, lo transporta y lo entrega. La motivación por alcanzarlo y la técnica de la boca son habilidades diferentes.",
+      "observe": "Observa la firmeza del agarre y un transporte sin reacomodos.",
+      "generalNotes": [],
+      "levelObjectives": {
+        "Básico": "establecer una mordida correcta y firme — boca llena, sin masticar ni reacomodar.",
+        "Intermedio": "mantener la calidad de mordida bajo tensión, movimiento y variedad de objetos.",
+        "Avanzado": "consolidar la mordida correcta a la carrera, bajo distracción y en el contexto real de competencia."
+      },
+      "levelCounts": {
+        "Básico": 4,
+        "Intermedio": 4,
+        "Avanzado": 4
+      },
+      "exerciseCount": 12,
+      "exercises": [
+        {
+          "id": "mordida-01",
+          "pillarId": "mordida",
+          "order": 1,
+          "title": "Sostener sin soltar (hold estático)",
+          "level": "Básico",
+          "implemento": "Kong o mordedor de tela suave.",
+          "descripcion": "El manejador ofrece el objeto ya dentro de la boca del perro (sin persecución previa) y pide que lo sostenga quieto durante unos segundos, corrigiendo si muerde solo con los dientes frontales en vez de boca llena.",
+          "criterio": "El perro sostiene con boca llena (muelas) sin masticar ni intentar reacomodar el agarre.",
+          "fields": {
+            "Implemento": "Kong o mordedor de tela suave.",
+            "Descripción": "El manejador ofrece el objeto ya dentro de la boca del perro (sin persecución previa) y pide que lo sostenga quieto durante unos segundos, corrigiendo si muerde solo con los dientes frontales en vez de boca llena.",
+            "Criterio para avanzar": "El perro sostiene con boca llena (muelas) sin masticar ni intentar reacomodar el agarre."
+          }
+        },
+        {
+          "id": "mordida-02",
+          "pillarId": "mordida",
+          "order": 2,
+          "title": "Presentación para agarre correcto",
+          "level": "Básico",
+          "implemento": "Juguete de cuerda con nudos.",
+          "descripcion": "El manejador presenta el objeto a distintos ángulos (de frente, de lado, ligeramente arriba) para que el perro aprenda a ajustar la apertura de la boca y cerrar en el punto correcto sin necesidad de reacomodar después.",
+          "criterio": "El perro cierra la boca en la posición correcta desde el primer contacto, sin importar el ángulo de presentación.",
+          "fields": {
+            "Implemento": "Juguete de cuerda con nudos.",
+            "Descripción": "El manejador presenta el objeto a distintos ángulos (de frente, de lado, ligeramente arriba) para que el perro aprenda a ajustar la apertura de la boca y cerrar en el punto correcto sin necesidad de reacomodar después.",
+            "Criterio para avanzar": "El perro cierra la boca en la posición correcta desde el primer contacto, sin importar el ángulo de presentación."
+          }
+        },
+        {
+          "id": "mordida-03",
+          "pillarId": "mordida",
+          "order": 3,
+          "title": "Transporte corto (carry)",
+          "level": "Básico",
+          "implemento": "Kong pequeño o pelota de tenis.",
+          "descripcion": "Con el objeto ya en la boca, el manejador guía al perro a caminar 2-3 metros en línea recta hacia él, evaluando que no suelte ni muerda el objeto durante el trayecto.",
+          "criterio": "El perro completa el trayecto sin soltar, sin masticar y sin bajar la cabeza a \"acomodar\" el objeto en el piso.",
+          "fields": {
+            "Implemento": "Kong pequeño o pelota de tenis.",
+            "Descripción": "Con el objeto ya en la boca, el manejador guía al perro a caminar 2-3 metros en línea recta hacia él, evaluando que no suelte ni muerda el objeto durante el trayecto.",
+            "Criterio para avanzar": "El perro completa el trayecto sin soltar, sin masticar y sin bajar la cabeza a \"acomodar\" el objeto en el piso."
+          }
+        },
+        {
+          "id": "mordida-04",
+          "pillarId": "mordida",
+          "order": 4,
+          "title": "Suelta a la orden (out controlado)",
+          "level": "Básico",
+          "implemento": "Cualquier juguete de mordida usado en los ejercicios anteriores.",
+          "descripcion": "El manejador pide al perro que suelte el objeto a la orden verbal, sin necesidad de forcejeo ni intercambio por comida — se busca una suelta limpia y calmada.",
+          "criterio": "El perro suelta en menos de 2 segundos tras la orden, sin gruñir ni resistirse.",
+          "fields": {
+            "Implemento": "Cualquier juguete de mordida usado en los ejercicios anteriores.",
+            "Descripción": "El manejador pide al perro que suelte el objeto a la orden verbal, sin necesidad de forcejeo ni intercambio por comida — se busca una suelta limpia y calmada.",
+            "Criterio para avanzar": "El perro suelta en menos de 2 segundos tras la orden, sin gruñir ni resistirse."
+          }
+        },
+        {
+          "id": "mordida-05",
+          "pillarId": "mordida",
+          "order": 5,
+          "title": "Sostener bajo tensión leve",
+          "level": "Intermedio",
+          "implemento": "Juguete de cuerda o mordedor de tela resistente.",
+          "descripcion": "El manejador aplica un jaloneo suave y sostenido (no agresivo) mientras el perro mantiene el agarre, evaluando que no reacomode la boca ni pierda profundidad de mordida por la tensión.",
+          "criterio": "El perro sostiene el mismo agarre (boca llena, firme) durante toda la tensión sin resbalar hacia los dientes frontales.",
+          "fields": {
+            "Implemento": "Juguete de cuerda o mordedor de tela resistente.",
+            "Descripción": "El manejador aplica un jaloneo suave y sostenido (no agresivo) mientras el perro mantiene el agarre, evaluando que no reacomode la boca ni pierda profundidad de mordida por la tensión.",
+            "Criterio para avanzar": "El perro sostiene el mismo agarre (boca llena, firme) durante toda la tensión sin resbalar hacia los dientes frontales."
+          }
+        },
+        {
+          "id": "mordida-06",
+          "pillarId": "mordida",
+          "order": 6,
+          "title": "Transporte con obstáculo",
+          "level": "Intermedio",
+          "implemento": "Kong o disco + cono/tubo bajo como obstáculo.",
+          "descripcion": "Con el objeto en la boca, el perro debe rodear un obstáculo bajo mientras camina o trota, manteniendo el agarre durante el giro.",
+          "criterio": "El perro completa el giro sin soltar ni reacomodar el objeto en la boca.",
+          "fields": {
+            "Implemento": "Kong o disco + cono/tubo bajo como obstáculo.",
+            "Descripción": "Con el objeto en la boca, el perro debe rodear un obstáculo bajo mientras camina o trota, manteniendo el agarre durante el giro.",
+            "Criterio para avanzar": "El perro completa el giro sin soltar ni reacomodar el objeto en la boca."
+          }
+        },
+        {
+          "id": "mordida-07",
+          "pillarId": "mordida",
+          "order": 7,
+          "title": "Cambio de objeto (variedad de textura y tamaño)",
+          "level": "Intermedio",
+          "implemento": "Rotar entre kong, disco, mordedor de piel y pelota de tenis.",
+          "descripcion": "Se presenta un objeto distinto en cada repetición para que el perro adapte la apertura y firmeza de la mordida según tamaño y material, sin perder calidad de agarre.",
+          "criterio": "El perro mantiene boca llena y agarre firme sin importar el objeto presentado.",
+          "fields": {
+            "Implemento": "Rotar entre kong, disco, mordedor de piel y pelota de tenis.",
+            "Descripción": "Se presenta un objeto distinto en cada repetición para que el perro adapte la apertura y firmeza de la mordida según tamaño y material, sin perder calidad de agarre.",
+            "Criterio para avanzar": "El perro mantiene boca llena y agarre firme sin importar el objeto presentado."
+          }
+        },
+        {
+          "id": "mordida-08",
+          "pillarId": "mordida",
+          "order": 8,
+          "title": "Sostener en movimiento del manejador",
+          "level": "Intermedio",
+          "implemento": "Kong o mordedor de tela.",
+          "descripcion": "Con el objeto en la boca, el perro debe seguir al manejador mientras este camina y luego trota en distintas direcciones, sin soltar ni masticar.",
+          "criterio": "El perro sostiene el objeto sin cambios de agarre durante todo el recorrido, incluso con cambios de ritmo del manejador.",
+          "fields": {
+            "Implemento": "Kong o mordedor de tela.",
+            "Descripción": "Con el objeto en la boca, el perro debe seguir al manejador mientras este camina y luego trota en distintas direcciones, sin soltar ni masticar.",
+            "Criterio para avanzar": "El perro sostiene el objeto sin cambios de agarre durante todo el recorrido, incluso con cambios de ritmo del manejador."
+          }
+        },
+        {
+          "id": "mordida-09",
+          "pillarId": "mordida",
+          "order": 9,
+          "title": "Mordida a la carrera (sin re-acomodar)",
+          "level": "Avanzado",
+          "implemento": "Pelota de tenis o disco.",
+          "descripcion": "El objeto se lanza en movimiento y el perro debe recogerlo a plena velocidad con la mordida correcta desde el primer contacto, sin detenerse a reacomodar el agarre.",
+          "criterio": "El perro recoge el objeto con boca llena y firme en un solo movimiento, sin pausas ni reajustes.",
+          "fields": {
+            "Implemento": "Pelota de tenis o disco.",
+            "Descripción": "El objeto se lanza en movimiento y el perro debe recogerlo a plena velocidad con la mordida correcta desde el primer contacto, sin detenerse a reacomodar el agarre.",
+            "Criterio para avanzar": "El perro recoge el objeto con boca llena y firme en un solo movimiento, sin pausas ni reajustes."
+          }
+        },
+        {
+          "id": "mordida-10",
+          "pillarId": "mordida",
+          "order": 10,
+          "title": "Sostener bajo distracción",
+          "level": "Avanzado",
+          "implemento": "Cualquier juguete de mordida de alto valor.",
+          "descripcion": "El perro sostiene el objeto mientras hay distracciones activas alrededor (otro perro, gente, ruido), evaluando que no suelte ni afloje el agarre por la presión ambiental.",
+          "criterio": "El perro mantiene el mismo nivel de mordida que en un entorno sin distracciones.",
+          "fields": {
+            "Implemento": "Cualquier juguete de mordida de alto valor.",
+            "Descripción": "El perro sostiene el objeto mientras hay distracciones activas alrededor (otro perro, gente, ruido), evaluando que no suelte ni afloje el agarre por la presión ambiental.",
+            "Criterio para avanzar": "El perro mantiene el mismo nivel de mordida que en un entorno sin distracciones."
+          }
+        },
+        {
+          "id": "mordida-11",
+          "pillarId": "mordida",
+          "order": 11,
+          "title": "Transporte largo con obstáculos",
+          "level": "Avanzado",
+          "implemento": "Kong o disco + set de vallas bajas o conos.",
+          "descripcion": "Con el objeto en la boca, el perro recorre un tramo largo (8-10 metros) sorteando obstáculos, simulando el regreso de una carrera de flyball.",
+          "criterio": "El perro completa el recorrido completo sin soltar, masticar ni bajar velocidad por el objeto en la boca.",
+          "fields": {
+            "Implemento": "Kong o disco + set de vallas bajas o conos.",
+            "Descripción": "Con el objeto en la boca, el perro recorre un tramo largo (8-10 metros) sorteando obstáculos, simulando el regreso de una carrera de flyball.",
+            "Criterio para avanzar": "El perro completa el recorrido completo sin soltar, masticar ni bajar velocidad por el objeto en la boca."
+          }
+        },
+        {
+          "id": "mordida-12",
+          "pillarId": "mordida",
+          "order": 12,
+          "title": "Integración con el objeto de competencia",
+          "level": "Avanzado",
+          "implemento": "Pelota oficial de flyball + caja.",
+          "descripcion": "Se evalúa la calidad de mordida específicamente al recoger la pelota de la caja durante una salida completa, verificando que la técnica trabajada se transfiera al contexto real.",
+          "criterio": "La calidad de mordida en la pelota de competencia iguala la mostrada en los ejercicios de entrenamiento (boca llena, sin reacomodo, transporte limpio de regreso).",
+          "fields": {
+            "Implemento": "Pelota oficial de flyball + caja.",
+            "Descripción": "Se evalúa la calidad de mordida específicamente al recoger la pelota de la caja durante una salida completa, verificando que la técnica trabajada se transfiera al contexto real.",
+            "Criterio para avanzar": "La calidad de mordida en la pelota de competencia iguala la mostrada en los ejercicios de entrenamiento (boca llena, sin reacomodo, transporte limpio de regreso)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "control",
+      "name": "Control",
+      "color": "violet",
+      "tagline": "Esperar y responder.",
+      "description": "Responder a señales, aceptar pausas y manejar los impulsos. El objetivo es que el perro pueda prestar atención y tomar decisiones incluso ante estímulos interesantes.",
+      "observe": "Observa una respuesta a una sola señal, sin tensión ni repeticiones.",
+      "generalNotes": [
+        "Nota general: usar señales claras y premiar la respuesta correcta. Si el perro se equivoca, reiniciar con menor dificultad, sin tirones ni castigos. Aumentar una sola variable a la vez: duración, distancia o distracción. Las repeticiones son orientativas; terminar antes si pierde atención."
+      ],
+      "levelObjectives": {
+        "Básico": "establecer atención al manejador, autocontrol ante recompensas y respuesta a señales sencillas.",
+        "Intermedio": "aplicar el control a situaciones de entrenamiento con estímulos moderados y decisiones más exigentes."
+      },
+      "levelCounts": {
+        "Básico": 4,
+        "Intermedio": 4
+      },
+      "exerciseCount": 8,
+      "exercises": [
+        {
+          "id": "control-01",
+          "pillarId": "control",
+          "order": 1,
+          "title": "Atención al nombre",
+          "level": "Básico",
+          "implemento": "Premios pequeños.",
+          "descripcion": "En un lugar tranquilo, decir el nombre del perro una sola vez. Marcar y premiar cuando orienta la cabeza hacia el manejador, sin exigir contacto visual sostenido. Si no responde, reducir las distracciones antes de intentarlo de nuevo.",
+          "criterio": "Se orienta hacia el manejador en menos de 2 segundos en 4 de 5 intentos, sin repetir el nombre.",
+          "fields": {
+            "Implemento": "Premios pequeños.",
+            "Descripción": "En un lugar tranquilo, decir el nombre del perro una sola vez. Marcar y premiar cuando orienta la cabeza hacia el manejador, sin exigir contacto visual sostenido. Si no responde, reducir las distracciones antes de intentarlo de nuevo.",
+            "Criterio para avanzar": "Se orienta hacia el manejador en menos de 2 segundos en 4 de 5 intentos, sin repetir el nombre."
+          }
+        },
+        {
+          "id": "control-02",
+          "pillarId": "control",
+          "order": 2,
+          "title": "Renunciar al premio en la mano",
+          "level": "Básico",
+          "implemento": "Premios en ambas manos.",
+          "descripcion": "Presentar una mano cerrada con comida y esperar a que el perro deje de olfatearla, lamerla o empujarla. Marcar ese momento y premiar desde la otra mano. Abrir gradualmente la mano de presentación; cerrarla con suavidad si intenta tomar la comida.",
+          "criterio": "Deja la comida de la mano abierta durante 3 segundos sin intentar tomarla y acepta el premio de la otra mano.",
+          "fields": {
+            "Implemento": "Premios en ambas manos.",
+            "Descripción": "Presentar una mano cerrada con comida y esperar a que el perro deje de olfatearla, lamerla o empujarla. Marcar ese momento y premiar desde la otra mano. Abrir gradualmente la mano de presentación; cerrarla con suavidad si intenta tomar la comida.",
+            "Criterio para avanzar": "Deja la comida de la mano abierta durante 3 segundos sin intentar tomarla y acepta el premio de la otra mano."
+          }
+        },
+        {
+          "id": "control-03",
+          "pillarId": "control",
+          "order": 3,
+          "title": "Ir a la zona de descanso",
+          "level": "Básico",
+          "implemento": "Tapete antideslizante + premios.",
+          "descripcion": "Premiar que el perro entre voluntariamente al tapete. Cuando lo haga de forma consistente, añadir una señal como \"a tu lugar\" antes de que entre. Entregar los premios sobre el tapete y dar una señal de liberación para que salga; empezar con permanencias de 2-3 segundos.",
+          "criterio": "Entra al tapete a la señal desde 1 metro y permanece allí 5 segundos hasta ser liberado, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Tapete antideslizante + premios.",
+            "Descripción": "Premiar que el perro entre voluntariamente al tapete. Cuando lo haga de forma consistente, añadir una señal como \"a tu lugar\" antes de que entre. Entregar los premios sobre el tapete y dar una señal de liberación para que salga; empezar con permanencias de 2-3 segundos.",
+            "Criterio para avanzar": "Entra al tapete a la señal desde 1 metro y permanece allí 5 segundos hasta ser liberado, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "control-04",
+          "pillarId": "control",
+          "order": 4,
+          "title": "Regreso a la llamada",
+          "level": "Básico",
+          "implemento": "Premios + arnés y correa larga en un espacio abierto, o área cercada.",
+          "descripcion": "Con el perro explorando a 2-3 metros, dar una señal de llamada distinta de su nombre. Marcar cuando comienza a regresar y premiar al llegar al manejador. Volver a permitirle explorar después de algunas llamadas. La correa sirve de respaldo, sin usarla para arrastrarlo.",
+          "criterio": "Vuelve hasta el manejador tras una sola señal en 4 de 5 intentos, sin tensión en la correa.",
+          "fields": {
+            "Implemento": "Premios + arnés y correa larga en un espacio abierto, o área cercada.",
+            "Descripción": "Con el perro explorando a 2-3 metros, dar una señal de llamada distinta de su nombre. Marcar cuando comienza a regresar y premiar al llegar al manejador. Volver a permitirle explorar después de algunas llamadas. La correa sirve de respaldo, sin usarla para arrastrarlo.",
+            "Criterio para avanzar": "Vuelve hasta el manejador tras una sola señal en 4 de 5 intentos, sin tensión en la correa."
+          }
+        },
+        {
+          "id": "control-05",
+          "pillarId": "control",
+          "order": 5,
+          "title": "Discriminación de la señal de salida",
+          "level": "Intermedio",
+          "implemento": "Marca de salida en el suelo + premios.",
+          "descripcion": "Con el perro en una posición de espera ya aprendida, el manejador alterna movimientos habituales de preparación: dar un paso, levantar una mano o decir una palabra neutra. Premiar en la posición cuando el perro permanece allí. En algunas repeticiones dar la señal real de salida y permitirle avanzar hacia el manejador para recibir el premio. No usar un juguete en movimiento.",
+          "criterio": "Permanece ante los gestos y palabras neutras y sale únicamente con la señal acordada en 4 de 5 ensayos.",
+          "fields": {
+            "Implemento": "Marca de salida en el suelo + premios.",
+            "Descripción": "Con el perro en una posición de espera ya aprendida, el manejador alterna movimientos habituales de preparación: dar un paso, levantar una mano o decir una palabra neutra. Premiar en la posición cuando el perro permanece allí. En algunas repeticiones dar la señal real de salida y permitirle avanzar hacia el manejador para recibir el premio. No usar un juguete en movimiento.",
+            "Criterio para avanzar": "Permanece ante los gestos y palabras neutras y sale únicamente con la señal acordada en 4 de 5 ensayos."
+          }
+        },
+        {
+          "id": "control-06",
+          "pillarId": "control",
+          "order": 6,
+          "title": "Interrumpir la aproximación a un objeto",
+          "level": "Intermedio",
+          "implemento": "Juguete inmóvil + premios + arnés y correa larga floja.",
+          "descripcion": "Colocar un juguete de interés moderado a 3-4 metros y permitir que el perro camine hacia él. Antes de que llegue, dar una señal de interrupción previamente enseñada, como \"deja\". Marcar cuando abandona la aproximación y premiar junto al manejador. Empezar dando la señal cuando todavía está lejos del juguete; no practicar a velocidad de carrera.",
+          "criterio": "Deja de avanzar hacia el objeto y se orienta al manejador tras una sola señal en 4 de 5 intentos, sin depender de la correa.",
+          "fields": {
+            "Implemento": "Juguete inmóvil + premios + arnés y correa larga floja.",
+            "Descripción": "Colocar un juguete de interés moderado a 3-4 metros y permitir que el perro camine hacia él. Antes de que llegue, dar una señal de interrupción previamente enseñada, como \"deja\". Marcar cuando abandona la aproximación y premiar junto al manejador. Empezar dando la señal cuando todavía está lejos del juguete; no practicar a velocidad de carrera.",
+            "Criterio para avanzar": "Deja de avanzar hacia el objeto y se orienta al manejador tras una sola señal en 4 de 5 intentos, sin depender de la correa."
+          }
+        },
+        {
+          "id": "control-07",
+          "pillarId": "control",
+          "order": 7,
+          "title": "Permanecer neutral ante el paso de otro perro",
+          "level": "Intermedio",
+          "implemento": "Arnés y correa + premios + ayudante con un perro tranquilo.",
+          "descripcion": "El perro permanece junto al manejador mientras el ayudante pasa con el otro perro a una distancia que permita observarlo sin tironear ni intentar acercarse. Premiar la correa floja y que vuelva a atender al manejador. Reducir la distancia solo cuando conserve esa respuesta; no buscar un saludo entre perros.",
+          "criterio": "Observa el paso del otro perro, mantiene la correa floja y responde a su nombre en 4 de 5 pasadas a la distancia trabajada.",
+          "fields": {
+            "Implemento": "Arnés y correa + premios + ayudante con un perro tranquilo.",
+            "Descripción": "El perro permanece junto al manejador mientras el ayudante pasa con el otro perro a una distancia que permita observarlo sin tironear ni intentar acercarse. Premiar la correa floja y que vuelva a atender al manejador. Reducir la distancia solo cuando conserve esa respuesta; no buscar un saludo entre perros.",
+            "Criterio para avanzar": "Observa el paso del otro perro, mantiene la correa floja y responde a su nombre en 4 de 5 pasadas a la distancia trabajada."
+          }
+        },
+        {
+          "id": "control-08",
+          "pillarId": "control",
+          "order": 8,
+          "title": "Aceptar la pausa entre turnos",
+          "level": "Intermedio",
+          "implemento": "Premios + arnés y correa + espacio tranquilo al costado de la zona de trabajo.",
+          "descripcion": "Después de una actividad breve que el perro ya conozca, dar una señal de fin como \"terminamos\", guardar el material y caminar hacia la zona de pausa. Premiar que deje de buscar el juguete y permanezca junto al manejador con la correa floja. Reanudar una actividad breve cuando consiga la pausa, para que el final de un turno no siempre signifique el final de la sesión.",
+          "criterio": "Acepta guardar el material y completa una pausa de 20 segundos sin tironear hacia la zona de trabajo ni intentar recuperar el juguete, en 3 ciclos consecutivos.",
+          "fields": {
+            "Implemento": "Premios + arnés y correa + espacio tranquilo al costado de la zona de trabajo.",
+            "Descripción": "Después de una actividad breve que el perro ya conozca, dar una señal de fin como \"terminamos\", guardar el material y caminar hacia la zona de pausa. Premiar que deje de buscar el juguete y permanezca junto al manejador con la correa floja. Reanudar una actividad breve cuando consiga la pausa, para que el final de un turno no siempre signifique el final de la sesión.",
+            "Criterio para avanzar": "Acepta guardar el material y completa una pausa de 20 segundos sin tironear hacia la zona de trabajo ni intentar recuperar el juguete, en 3 ciclos consecutivos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seguimiento",
+      "name": "Seguimiento",
+      "color": "sky",
+      "tagline": "Seguir una guía con precisión.",
+      "description": "Seguir una mano, un señuelo o al guía para aprender posiciones y trayectorias. La ayuda se reduce conforme el perro comprende el movimiento.",
+      "observe": "Observa una trayectoria fluida y una posición clara.",
+      "generalNotes": [
+        "Nota general: mover la mano o el señuelo a la altura natural del hocico, con movimientos continuos y a paso de caminata. Marcar la posición buscada y entregar el premio allí. Empezar con comida en la mano y retirarla gradualmente, premiando desde la otra mano cuando el perro ya comprenda el gesto. Aumentar una sola variable a la vez: longitud del recorrido, complejidad de la trayectoria o reducción de la ayuda."
+      ],
+      "levelObjectives": {
+        "Básico": "enseñar al perro a seguir una guía cercana y colocarse en posiciones sencillas.",
+        "Intermedio": "usar el seguimiento para enseñar trayectorias, ángulos de entrada y cambios de referencia."
+      },
+      "levelCounts": {
+        "Básico": 4,
+        "Intermedio": 4
+      },
+      "exerciseCount": 8,
+      "exercises": [
+        {
+          "id": "seguimiento-01",
+          "pillarId": "seguimiento",
+          "order": 1,
+          "title": "Seguimiento en línea recta",
+          "level": "Básico",
+          "implemento": "Premios pequeños.",
+          "descripcion": "Presentar la mano con un premio cerca del hocico y desplazarla lentamente hacia delante para que el perro camine siguiendo su trayectoria. Empezar con 2-3 pasos y premiar al final; ampliar hasta 2 metros sin levantar la mano ni alejarla bruscamente.",
+          "criterio": "Sigue la mano durante 2 metros de forma continua, sin saltar para alcanzarla ni adelantarse, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Premios pequeños.",
+            "Descripción": "Presentar la mano con un premio cerca del hocico y desplazarla lentamente hacia delante para que el perro camine siguiendo su trayectoria. Empezar con 2-3 pasos y premiar al final; ampliar hasta 2 metros sin levantar la mano ni alejarla bruscamente.",
+            "Criterio para avanzar": "Sigue la mano durante 2 metros de forma continua, sin saltar para alcanzarla ni adelantarse, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "seguimiento-02",
+          "pillarId": "seguimiento",
+          "order": 2,
+          "title": "Colocación al costado del manejador",
+          "level": "Básico",
+          "implemento": "Premios pequeños.",
+          "descripcion": "Con el perro frente al manejador, guiarlo con la mano por un arco amplio hasta dejarlo a un costado, orientado en la misma dirección. Premiar con las cuatro patas en el suelo. Practicar ambos lados por separado, sin exigir una posición de obediencia exacta.",
+          "criterio": "Termina al costado indicado y orientado hacia delante con un solo movimiento continuo de la mano, en 4 de 5 intentos por lado.",
+          "fields": {
+            "Implemento": "Premios pequeños.",
+            "Descripción": "Con el perro frente al manejador, guiarlo con la mano por un arco amplio hasta dejarlo a un costado, orientado en la misma dirección. Premiar con las cuatro patas en el suelo. Practicar ambos lados por separado, sin exigir una posición de obediencia exacta.",
+            "Criterio para avanzar": "Termina al costado indicado y orientado hacia delante con un solo movimiento continuo de la mano, en 4 de 5 intentos por lado."
+          }
+        },
+        {
+          "id": "seguimiento-03",
+          "pillarId": "seguimiento",
+          "order": 3,
+          "title": "Entrada entre las piernas",
+          "level": "Básico",
+          "implemento": "Premios + espacio suficiente para el tamaño del perro.",
+          "descripcion": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
+          "criterio": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Premios + espacio suficiente para el tamaño del perro.",
+            "Descripción": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
+            "Criterio para avanzar": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "seguimiento-04",
+          "pillarId": "seguimiento",
+          "order": 4,
+          "title": "Giro abierto de media vuelta",
+          "level": "Básico",
+          "implemento": "Premios + suelo antideslizante.",
+          "descripcion": "Guiar al perro con la mano por una curva amplia de 180 grados, dejando que avance con todo el cuerpo hasta quedar orientado en sentido contrario. Alternar derecha e izquierda y ajustar el radio para que pueda caminar sin girar sobre las patas fijas.",
+          "criterio": "Completa la media vuelta caminando de forma fluida y siguiendo la mano, sin cruzarse bajo los pies del manejador, en 4 de 5 intentos por dirección.",
+          "fields": {
+            "Implemento": "Premios + suelo antideslizante.",
+            "Descripción": "Guiar al perro con la mano por una curva amplia de 180 grados, dejando que avance con todo el cuerpo hasta quedar orientado en sentido contrario. Alternar derecha e izquierda y ajustar el radio para que pueda caminar sin girar sobre las patas fijas.",
+            "Criterio para avanzar": "Completa la media vuelta caminando de forma fluida y siguiendo la mano, sin cruzarse bajo los pies del manejador, en 4 de 5 intentos por dirección."
+          }
+        },
+        {
+          "id": "seguimiento-05",
+          "pillarId": "seguimiento",
+          "order": 5,
+          "title": "Aproximación diagonal a una marca",
+          "level": "Intermedio",
+          "implemento": "Cinta o marca plana en el suelo + premios.",
+          "descripcion": "Colocar una marca como referencia de llegada. Desde 2-3 metros, guiar al perro con la mano por una diagonal hasta la marca y premiar con su cuerpo alineado en la dirección elegida. Variar el punto de partida entre ambos lados manteniendo el mismo punto de llegada; la marca no debe convertirse en un obstáculo.",
+          "criterio": "Llega a la marca por la diagonal indicada y termina alineado sin necesitar una corrección adicional, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Cinta o marca plana en el suelo + premios.",
+            "Descripción": "Colocar una marca como referencia de llegada. Desde 2-3 metros, guiar al perro con la mano por una diagonal hasta la marca y premiar con su cuerpo alineado en la dirección elegida. Variar el punto de partida entre ambos lados manteniendo el mismo punto de llegada; la marca no debe convertirse en un obstáculo.",
+            "Criterio para avanzar": "Llega a la marca por la diagonal indicada y termina alineado sin necesitar una corrección adicional, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "seguimiento-06",
+          "pillarId": "seguimiento",
+          "order": 6,
+          "title": "Recorrido en ocho alrededor de conos",
+          "level": "Intermedio",
+          "implemento": "Dos conos separados 2-3 metros + premios.",
+          "descripcion": "Guiar al perro con la mano para rodear ambos conos dibujando un ocho, con curvas amplias y un cruce central. Mantener la caminata y premiar al completar la figura. Al principio, premiar también en el cruce si necesita dividir el recorrido.",
+          "criterio": "Completa la figura con ambos cambios de curva, sin saltarse un cono ni perder la referencia de la mano, en 3 de 4 recorridos.",
+          "fields": {
+            "Implemento": "Dos conos separados 2-3 metros + premios.",
+            "Descripción": "Guiar al perro con la mano para rodear ambos conos dibujando un ocho, con curvas amplias y un cruce central. Mantener la caminata y premiar al completar la figura. Al principio, premiar también en el cruce si necesita dividir el recorrido.",
+            "Criterio para avanzar": "Completa la figura con ambos cambios de curva, sin saltarse un cono ni perder la referencia de la mano, en 3 de 4 recorridos."
+          }
+        },
+        {
+          "id": "seguimiento-07",
+          "pillarId": "seguimiento",
+          "order": 7,
+          "title": "Cambio de mano guía en movimiento",
+          "level": "Intermedio",
+          "implemento": "Premios.",
+          "descripcion": "Mientras el perro sigue una mano a paso de caminata, acercar la otra a la misma altura y transferirle la guía delante del hocico. Retirar la primera cuando siga la segunda y continuar 2-3 pasos antes de premiar. El perro mantiene su trayectoria; lo que cambia es la mano de referencia.",
+          "criterio": "Sigue la nueva mano sin detenerse, saltar ni volver a buscar la anterior, en 4 de 5 transferencias.",
+          "fields": {
+            "Implemento": "Premios.",
+            "Descripción": "Mientras el perro sigue una mano a paso de caminata, acercar la otra a la misma altura y transferirle la guía delante del hocico. Retirar la primera cuando siga la segunda y continuar 2-3 pasos antes de premiar. El perro mantiene su trayectoria; lo que cambia es la mano de referencia.",
+            "Criterio para avanzar": "Sigue la nueva mano sin detenerse, saltar ni volver a buscar la anterior, en 4 de 5 transferencias."
+          }
+        },
+        {
+          "id": "seguimiento-08",
+          "pillarId": "seguimiento",
+          "order": 8,
+          "title": "Redirección con gesto breve y mano vacía",
+          "level": "Intermedio",
+          "implemento": "Premios guardados + marca plana de llegada.",
+          "descripcion": "Con el perro a un costado, indicar con la mano vacía un cambio de dirección de 90 grados y caminar en la nueva dirección hacia una marca situada a 1-2 metros. Reducir gradualmente el gesto hasta poder retirar la mano después de indicar el rumbo. Premiar desde la otra mano al llegar, sin mostrar comida durante el recorrido.",
+          "criterio": "Toma la dirección indicada y completa el tramo junto al manejador después de retirar la mano guía, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Premios guardados + marca plana de llegada.",
+            "Descripción": "Con el perro a un costado, indicar con la mano vacía un cambio de dirección de 90 grados y caminar en la nueva dirección hacia una marca situada a 1-2 metros. Reducir gradualmente el gesto hasta poder retirar la mano después de indicar el rumbo. Premiar desde la otra mano al llegar, sin mostrar comida durante el recorrido.",
+            "Criterio para avanzar": "Toma la dirección indicada y completa el tramo junto al manejador después de retirar la mano guía, en 4 de 5 intentos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "propiocepcion",
+      "name": "Propiocepción",
+      "color": "teal",
+      "tagline": "Saber dónde poner cada pata.",
+      "description": "Conciencia del cuerpo, sus apoyos y la distribución del peso. Se trabaja con posiciones y superficies variadas; importa el control del movimiento, no la velocidad.",
+      "observe": "Observa apoyos estables y ajustes del cuerpo sin precipitación.",
+      "generalNotes": [
+        "Nota general: buscan que el perro tome conciencia fina de dónde están sus patas y cómo distribuye su peso. El progreso se mide en control y lentitud, no en velocidad — si el perro apura el ejercicio, se está saltando el aprendizaje."
+      ],
+      "levelObjectives": {
+        "Básico": "que el perro registre conscientemente dónde pisa, en superficies simples y estáticas.",
+        "Intermedio": "introducir inestabilidad real y mayor exigencia de control postural.",
+        "Avanzado": "control postural bajo movimiento activo, velocidad moderada y combinaciones complejas."
+      },
+      "levelCounts": {
+        "Básico": 5,
+        "Intermedio": 6,
+        "Avanzado": 6
+      },
+      "exerciseCount": 17,
+      "exercises": [
+        {
+          "id": "propiocepcion-01",
+          "pillarId": "propiocepcion",
+          "order": 1,
+          "title": "Plataforma estática (cuatro patas)",
+          "level": "Básico",
+          "implemento": "Plataforma pequeña y estable (banco bajo, disco rígido o cojín firme).",
+          "descripcion": "El perro sube y se mantiene parado con las cuatro patas sobre la plataforma, quieto, sin moverse.",
+          "criterio": "Se mantiene quieto y centrado, sin bajar una pata para \"buscar\" equilibrio.",
+          "fields": {
+            "Implemento": "Plataforma pequeña y estable (banco bajo, disco rígido o cojín firme).",
+            "Descripción": "El perro sube y se mantiene parado con las cuatro patas sobre la plataforma, quieto, sin moverse.",
+            "Criterio para avanzar": "Se mantiene quieto y centrado, sin bajar una pata para \"buscar\" equilibrio."
+          }
+        },
+        {
+          "id": "propiocepcion-02",
+          "pillarId": "propiocepcion",
+          "order": 2,
+          "title": "Caminar sobre superficie irregular",
+          "level": "Básico",
+          "implemento": "Colchonetas apiladas, cojines o superficie de textura variada (arena, pasto sintético grueso).",
+          "descripcion": "El perro camina lentamente sobre la superficie irregular, guiado por el manejador a paso controlado.",
+          "criterio": "Camina sin apurar el paso ni evitar el contacto con la superficie.",
+          "fields": {
+            "Implemento": "Colchonetas apiladas, cojines o superficie de textura variada (arena, pasto sintético grueso).",
+            "Descripción": "El perro camina lentamente sobre la superficie irregular, guiado por el manejador a paso controlado.",
+            "Criterio para avanzar": "Camina sin apurar el paso ni evitar el contacto con la superficie."
+          }
+        },
+        {
+          "id": "propiocepcion-03",
+          "pillarId": "propiocepcion",
+          "order": 3,
+          "title": "Manos arriba (patas delanteras elevadas)",
+          "level": "Básico",
+          "implemento": "Objeto bajo y estable (step, tronco, cajón).",
+          "descripcion": "El perro coloca solo las patas delanteras sobre el objeto y mantiene la postura, con las traseras firmes en el piso.",
+          "criterio": "Mantiene la postura sin recargarse ni perder el equilibrio trasero.",
+          "fields": {
+            "Implemento": "Objeto bajo y estable (step, tronco, cajón).",
+            "Descripción": "El perro coloca solo las patas delanteras sobre el objeto y mantiene la postura, con las traseras firmes en el piso.",
+            "Criterio para avanzar": "Mantiene la postura sin recargarse ni perder el equilibrio trasero."
+          }
+        },
+        {
+          "id": "propiocepcion-04",
+          "pillarId": "propiocepcion",
+          "order": 4,
+          "title": "Pivote simple (conciencia del tren trasero)",
+          "level": "Básico",
+          "implemento": "Plataforma pequeña y estable.",
+          "descripcion": "Con las patas delanteras fijas en el piso frente a la plataforma, el perro mueve solo el tren trasero para pivotar alrededor, un paso a la vez.",
+          "criterio": "Mueve las patas traseras de forma independiente y consciente, sin arrastrar ni saltar.",
+          "fields": {
+            "Implemento": "Plataforma pequeña y estable.",
+            "Descripción": "Con las patas delanteras fijas en el piso frente a la plataforma, el perro mueve solo el tren trasero para pivotar alrededor, un paso a la vez.",
+            "Criterio para avanzar": "Mueve las patas traseras de forma independiente y consciente, sin arrastrar ni saltar."
+          }
+        },
+        {
+          "id": "propiocepcion-05",
+          "pillarId": "propiocepcion",
+          "order": 5,
+          "title": "Caminar entre postes bajos (pole walking)",
+          "level": "Básico",
+          "implemento": "4-5 postes o conos colocados en línea, separados al ancho del paso del perro.",
+          "descripcion": "El perro camina entre los postes a paso lento, levantando cada pata con cuidado.",
+          "criterio": "No golpea ni tira los postes, y ajusta la zancada a la separación entre ellos.",
+          "fields": {
+            "Implemento": "4-5 postes o conos colocados en línea, separados al ancho del paso del perro.",
+            "Descripción": "El perro camina entre los postes a paso lento, levantando cada pata con cuidado.",
+            "Criterio para avanzar": "No golpea ni tira los postes, y ajusta la zancada a la separación entre ellos."
+          }
+        },
+        {
+          "id": "propiocepcion-06",
+          "pillarId": "propiocepcion",
+          "order": 6,
+          "title": "Plataforma inestable",
+          "level": "Intermedio",
+          "implemento": "Disco o cojín de equilibrio (balance disc/cushion).",
+          "descripcion": "El perro se para con las cuatro patas sobre la superficie inestable y mantiene el equilibrio sin bajarse.",
+          "criterio": "Hace micro-ajustes finos con las patas para mantener el centro, sin perder la postura completa.",
+          "fields": {
+            "Implemento": "Disco o cojín de equilibrio (balance disc/cushion).",
+            "Descripción": "El perro se para con las cuatro patas sobre la superficie inestable y mantiene el equilibrio sin bajarse.",
+            "Criterio para avanzar": "Hace micro-ajustes finos con las patas para mantener el centro, sin perder la postura completa."
+          }
+        },
+        {
+          "id": "propiocepcion-07",
+          "pillarId": "propiocepcion",
+          "order": 7,
+          "title": "Cavaletti elevado",
+          "level": "Intermedio",
+          "implemento": "Postes elevados unos centímetros del piso (cavaletti).",
+          "descripcion": "El perro camina sobre la serie de postes elevados, levantando cada pata por encima sin arrastrarla.",
+          "criterio": "Cada pata se levanta lo suficiente para despejar el poste, sin tropiezos.",
+          "fields": {
+            "Implemento": "Postes elevados unos centímetros del piso (cavaletti).",
+            "Descripción": "El perro camina sobre la serie de postes elevados, levantando cada pata por encima sin arrastrarla.",
+            "Criterio para avanzar": "Cada pata se levanta lo suficiente para despejar el poste, sin tropiezos."
+          }
+        },
+        {
+          "id": "propiocepcion-08",
+          "pillarId": "propiocepcion",
+          "order": 8,
+          "title": "Apoyo en tres patas",
+          "level": "Intermedio",
+          "implemento": "Ninguno (o plataforma pequeña de apoyo).",
+          "descripcion": "Con ayuda del manejador, se levanta brevemente una pata del perro mientras este sostiene el equilibrio sobre las otras tres.",
+          "criterio": "Sostiene la postura sin tambalearse ni recargar peso de más en una sola pata.",
+          "fields": {
+            "Implemento": "Ninguno (o plataforma pequeña de apoyo).",
+            "Descripción": "Con ayuda del manejador, se levanta brevemente una pata del perro mientras este sostiene el equilibrio sobre las otras tres.",
+            "Criterio para avanzar": "Sostiene la postura sin tambalearse ni recargar peso de más en una sola pata."
+          }
+        },
+        {
+          "id": "propiocepcion-09",
+          "pillarId": "propiocepcion",
+          "order": 9,
+          "title": "Caminar hacia atrás (backing up)",
+          "level": "Intermedio",
+          "implemento": "Pasillo angosto o dos objetos paralelos como guía.",
+          "descripcion": "El perro camina hacia atrás en línea recta, guiado por el manejador, sin girar el cuerpo.",
+          "criterio": "Mantiene línea recta y ritmo constante, sin desviarse ni detenerse a mitad de camino.",
+          "fields": {
+            "Implemento": "Pasillo angosto o dos objetos paralelos como guía.",
+            "Descripción": "El perro camina hacia atrás en línea recta, guiado por el manejador, sin girar el cuerpo.",
+            "Criterio para avanzar": "Mantiene línea recta y ritmo constante, sin desviarse ni detenerse a mitad de camino."
+          }
+        },
+        {
+          "id": "propiocepcion-10",
+          "pillarId": "propiocepcion",
+          "order": 10,
+          "title": "Plataforma doble (delanteras/traseras separadas)",
+          "level": "Intermedio",
+          "implemento": "Dos plataformas pequeñas (tipo \"peanut\" o discos), una para las patas delanteras y otra para las traseras.",
+          "descripcion": "El perro se para con las delanteras en una plataforma y las traseras en otra, y pivota lentamente moviendo solo el tren trasero.",
+          "criterio": "Mantiene las delanteras fijas mientras controla el movimiento trasero con precisión.",
+          "fields": {
+            "Implemento": "Dos plataformas pequeñas (tipo \"peanut\" o discos), una para las patas delanteras y otra para las traseras.",
+            "Descripción": "El perro se para con las delanteras en una plataforma y las traseras en otra, y pivota lentamente moviendo solo el tren trasero.",
+            "Criterio para avanzar": "Mantiene las delanteras fijas mientras controla el movimiento trasero con precisión."
+          }
+        },
+        {
+          "id": "propiocepcion-11",
+          "pillarId": "propiocepcion",
+          "order": 11,
+          "title": "Superficie inclinada (rampa)",
+          "level": "Intermedio",
+          "implemento": "Rampa estable de inclinación suave.",
+          "descripcion": "El perro sube y baja la rampa a paso controlado, sin correr ni saltar.",
+          "criterio": "Ajusta el peso hacia atrás al bajar (no se \"cae\" hacia adelante) y mantiene paso constante.",
+          "fields": {
+            "Implemento": "Rampa estable de inclinación suave.",
+            "Descripción": "El perro sube y baja la rampa a paso controlado, sin correr ni saltar.",
+            "Criterio para avanzar": "Ajusta el peso hacia atrás al bajar (no se \"cae\" hacia adelante) y mantiene paso constante."
+          }
+        },
+        {
+          "id": "propiocepcion-12",
+          "pillarId": "propiocepcion",
+          "order": 12,
+          "title": "Plataforma inestable en movimiento activo",
+          "level": "Avanzado",
+          "implemento": "Disco de equilibrio o tabla basculante (rocker board).",
+          "descripcion": "Parado sobre la superficie inestable, el perro transfiere peso de un lado a otro a la indicación del manejador (ej. tocar un objetivo a cada lado con el hocico) sin bajarse.",
+          "criterio": "Controla la inestabilidad mientras además ejecuta otra tarea, sin perder la base.",
+          "fields": {
+            "Implemento": "Disco de equilibrio o tabla basculante (rocker board).",
+            "Descripción": "Parado sobre la superficie inestable, el perro transfiere peso de un lado a otro a la indicación del manejador (ej. tocar un objetivo a cada lado con el hocico) sin bajarse.",
+            "Criterio para avanzar": "Controla la inestabilidad mientras además ejecuta otra tarea, sin perder la base."
+          }
+        },
+        {
+          "id": "propiocepcion-13",
+          "pillarId": "propiocepcion",
+          "order": 13,
+          "title": "Cavaletti a trote",
+          "level": "Avanzado",
+          "implemento": "Serie de postes elevados, misma distancia que en el ejercicio intermedio.",
+          "descripcion": "El perro atraviesa la serie de postes a trote controlado (no caminata), manteniendo la elevación correcta de cada pata.",
+          "criterio": "Mantiene técnica limpia incluso al ritmo más rápido, sin golpear los postes.",
+          "fields": {
+            "Implemento": "Serie de postes elevados, misma distancia que en el ejercicio intermedio.",
+            "Descripción": "El perro atraviesa la serie de postes a trote controlado (no caminata), manteniendo la elevación correcta de cada pata.",
+            "Criterio para avanzar": "Mantiene técnica limpia incluso al ritmo más rápido, sin golpear los postes."
+          }
+        },
+        {
+          "id": "propiocepcion-14",
+          "pillarId": "propiocepcion",
+          "order": 14,
+          "title": "Pivote de 360°",
+          "level": "Avanzado",
+          "implemento": "Plataforma pequeña y estable.",
+          "descripcion": "Con las traseras sobre la plataforma, el perro gira el cuerpo un círculo completo alrededor de sus patas traseras, sin bajarlas.",
+          "criterio": "Completa el giro entero sin bajar ninguna pata trasera de la plataforma.",
+          "fields": {
+            "Implemento": "Plataforma pequeña y estable.",
+            "Descripción": "Con las traseras sobre la plataforma, el perro gira el cuerpo un círculo completo alrededor de sus patas traseras, sin bajarlas.",
+            "Criterio para avanzar": "Completa el giro entero sin bajar ninguna pata trasera de la plataforma."
+          }
+        },
+        {
+          "id": "propiocepcion-15",
+          "pillarId": "propiocepcion",
+          "order": 15,
+          "title": "Caminar hacia atrás en curva/entre obstáculos",
+          "level": "Avanzado",
+          "implemento": "Conos o postes dispuestos en curva.",
+          "descripcion": "El perro camina hacia atrás siguiendo una trayectoria curva o esquivando obstáculos, sin girar el cuerpo hacia adelante.",
+          "criterio": "Ajusta la dirección hacia atrás con precisión, sin perder el patrón de caminar en reversa.",
+          "fields": {
+            "Implemento": "Conos o postes dispuestos en curva.",
+            "Descripción": "El perro camina hacia atrás siguiendo una trayectoria curva o esquivando obstáculos, sin girar el cuerpo hacia adelante.",
+            "Criterio para avanzar": "Ajusta la dirección hacia atrás con precisión, sin perder el patrón de caminar en reversa."
+          }
+        },
+        {
+          "id": "propiocepcion-16",
+          "pillarId": "propiocepcion",
+          "order": 16,
+          "title": "Circuito de equilibrio combinado",
+          "level": "Avanzado",
+          "implemento": "Combinación de plataforma inestable, cavaletti y rampa en secuencia.",
+          "descripcion": "El perro recorre el circuito completo enlazando los distintos retos de equilibrio sin pausas largas entre uno y otro.",
+          "criterio": "Mantiene control postural consistente en las tres fases del circuito, sin degradar la técnica hacia el final.",
+          "fields": {
+            "Implemento": "Combinación de plataforma inestable, cavaletti y rampa en secuencia.",
+            "Descripción": "El perro recorre el circuito completo enlazando los distintos retos de equilibrio sin pausas largas entre uno y otro.",
+            "Criterio para avanzar": "Mantiene control postural consistente en las tres fases del circuito, sin degradar la técnica hacia el final."
+          }
+        },
+        {
+          "id": "propiocepcion-17",
+          "pillarId": "propiocepcion",
+          "order": 17,
+          "title": "Equilibrio bajo distracción leve",
+          "level": "Avanzado",
+          "implemento": "Plataforma inestable + estímulo cercano (persona caminando cerca, otro perro a distancia controlada).",
+          "descripcion": "El perro sostiene el equilibrio sobre la superficie inestable mientras hay una distracción moderada cerca, sin saltar de la plataforma.",
+          "criterio": "Mantiene el mismo nivel de control que sin distracción.",
+          "fields": {
+            "Implemento": "Plataforma inestable + estímulo cercano (persona caminando cerca, otro perro a distancia controlada).",
+            "Descripción": "El perro sostiene el equilibrio sobre la superficie inestable mientras hay una distracción moderada cerca, sin saltar de la plataforma.",
+            "Criterio para avanzar": "Mantiene el mismo nivel de control que sin distracción."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuerza",
+      "name": "Fuerza",
+      "color": "orange",
+      "tagline": "Construir una base muscular.",
+      "description": "Desarrollar la capacidad muscular del tren delantero, el tren trasero y el tronco. La calidad de la postura acompaña el esfuerzo.",
+      "observe": "Observa una postura consistente durante el esfuerzo.",
+      "generalNotes": [
+        "Nota general: el peso/resistencia siempre debe ser proporcional y progresivo — nunca en cachorros o perros en crecimiento, y solo en perros adultos sanos sin problemas articulares. La carga de arrastre y la resistencia del paracaídas se aumentan gradualmente sesión a sesión, nunca de golpe. Ante cualquier duda, consultar con un veterinario antes de iniciar."
+      ],
+      "levelObjectives": {
+        "Básico": "que el perro se acostumbre a la sensación de resistencia (arrastre y paracaídas) sin comprometer la técnica ni generar estrés.",
+        "Intermedio": "aumentar carga y resistencia, e introducir mayor velocidad y terreno más exigente.",
+        "Avanzado": "máxima carga y resistencia funcional, en perros ya bien acondicionados a este tipo de trabajo."
+      },
+      "levelCounts": {
+        "Básico": 4,
+        "Intermedio": 5,
+        "Avanzado": 5
+      },
+      "exerciseCount": 14,
+      "exercises": [
+        {
+          "id": "fuerza-01",
+          "pillarId": "fuerza",
+          "order": 1,
+          "title": "Arrastre plano con carga mínima",
+          "level": "Básico",
+          "implemento": "Arnés de tiro adecuado + carga muy ligera (llanta pequeña o tabla con poco peso).",
+          "descripcion": "El perro camina en línea recta sobre terreno plano, arrastrando la carga a paso lento y controlado.",
+          "criterio": "Camina con tracción constante, sin detenerse ni mirar hacia atrás por la carga.",
+          "fields": {
+            "Implemento": "Arnés de tiro adecuado + carga muy ligera (llanta pequeña o tabla con poco peso).",
+            "Descripción": "El perro camina en línea recta sobre terreno plano, arrastrando la carga a paso lento y controlado.",
+            "Criterio para avanzar": "Camina con tracción constante, sin detenerse ni mirar hacia atrás por la carga."
+          }
+        },
+        {
+          "id": "fuerza-02",
+          "pillarId": "fuerza",
+          "order": 2,
+          "title": "Sprint corto con paracaídas de resistencia baja",
+          "level": "Básico",
+          "implemento": "Pechera con paracaídas de resistencia baja.",
+          "descripcion": "El perro corre en línea recta a distancia corta con el paracaídas enganchado, sintiendo por primera vez la resistencia al arranque y durante la carrera.",
+          "criterio": "Mantiene buena mecánica de carrera (sin echarse hacia adelante en exceso) pese a la resistencia.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia baja.",
+            "Descripción": "El perro corre en línea recta a distancia corta con el paracaídas enganchado, sintiendo por primera vez la resistencia al arranque y durante la carrera.",
+            "Criterio para avanzar": "Mantiene buena mecánica de carrera (sin echarse hacia adelante en exceso) pese a la resistencia."
+          }
+        },
+        {
+          "id": "fuerza-03",
+          "pillarId": "fuerza",
+          "order": 3,
+          "title": "Arrastre a paso controlado (enfoque en postura)",
+          "level": "Básico",
+          "implemento": "Arnés de tiro + carga mínima.",
+          "descripcion": "Mismo arrastre plano, pero el foco aquí es la postura: el manejador observa que el perro no arrastre las patas ni comprima la espalda al tirar.",
+          "criterio": "Mantiene el lomo neutro y el paso parejo durante todo el tramo.",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga mínima.",
+            "Descripción": "Mismo arrastre plano, pero el foco aquí es la postura: el manejador observa que el perro no arrastre las patas ni comprima la espalda al tirar.",
+            "Criterio para avanzar": "Mantiene el lomo neutro y el paso parejo durante todo el tramo."
+          }
+        },
+        {
+          "id": "fuerza-04",
+          "pillarId": "fuerza",
+          "order": 4,
+          "title": "Arranque explosivo con paracaídas mínimo",
+          "level": "Básico",
+          "implemento": "Pechera con paracaídas de resistencia baja.",
+          "descripcion": "Desde posición quieta, el perro arranca con la mayor explosividad posible contra la resistencia mínima del paracaídas, en distancia muy corta.",
+          "criterio": "El primer impulso es potente y decidido, sin titubear por sentir la resistencia detrás.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia baja.",
+            "Descripción": "Desde posición quieta, el perro arranca con la mayor explosividad posible contra la resistencia mínima del paracaídas, en distancia muy corta.",
+            "Criterio para avanzar": "El primer impulso es potente y decidido, sin titubear por sentir la resistencia detrás."
+          }
+        },
+        {
+          "id": "fuerza-05",
+          "pillarId": "fuerza",
+          "order": 5,
+          "title": "Arrastre a trote con carga media",
+          "level": "Intermedio",
+          "implemento": "Arnés de tiro + carga media (llanta mediana).",
+          "descripcion": "El perro arrastra la carga a trote controlado (no caminata) en línea recta.",
+          "criterio": "Sostiene el trote parejo durante todo el tramo sin bajar a caminata por el esfuerzo.",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga media (llanta mediana).",
+            "Descripción": "El perro arrastra la carga a trote controlado (no caminata) en línea recta.",
+            "Criterio para avanzar": "Sostiene el trote parejo durante todo el tramo sin bajar a caminata por el esfuerzo."
+          }
+        },
+        {
+          "id": "fuerza-06",
+          "pillarId": "fuerza",
+          "order": 6,
+          "title": "Sprint a distancia media con paracaídas medio",
+          "level": "Intermedio",
+          "implemento": "Pechera con paracaídas de resistencia media.",
+          "descripcion": "El perro corre a distancia media con mayor resistencia, exigiendo más potencia de arranque y sostenimiento de velocidad.",
+          "criterio": "Sostiene el ritmo de carrera durante todo el tramo sin perder potencia hacia el final.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia media.",
+            "Descripción": "El perro corre a distancia media con mayor resistencia, exigiendo más potencia de arranque y sostenimiento de velocidad.",
+            "Criterio para avanzar": "Sostiene el ritmo de carrera durante todo el tramo sin perder potencia hacia el final."
+          }
+        },
+        {
+          "id": "fuerza-07",
+          "pillarId": "fuerza",
+          "order": 7,
+          "title": "Arrastre en subida leve",
+          "level": "Intermedio",
+          "implemento": "Arnés de tiro + carga ligera-media + pendiente suave.",
+          "descripcion": "El perro arrastra la carga cuesta arriba, combinando la resistencia del arrastre con la exigencia de la inclinación.",
+          "criterio": "Completa el tramo sin detenerse ni perder tracción a mitad de la subida.",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga ligera-media + pendiente suave.",
+            "Descripción": "El perro arrastra la carga cuesta arriba, combinando la resistencia del arrastre con la exigencia de la inclinación.",
+            "Criterio para avanzar": "Completa el tramo sin detenerse ni perder tracción a mitad de la subida."
+          }
+        },
+        {
+          "id": "fuerza-08",
+          "pillarId": "fuerza",
+          "order": 8,
+          "title": "Sprint con cambio de ritmo",
+          "level": "Intermedio",
+          "implemento": "Pechera con paracaídas de resistencia media.",
+          "descripcion": "El perro corre alternando un arranque explosivo con un tramo de sostenimiento a velocidad constante, todo contra la resistencia del paracaídas.",
+          "criterio": "Mantiene potencia tanto en el arranque como en el tramo sostenido, sin decaer entre ambas fases.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia media.",
+            "Descripción": "El perro corre alternando un arranque explosivo con un tramo de sostenimiento a velocidad constante, todo contra la resistencia del paracaídas.",
+            "Criterio para avanzar": "Mantiene potencia tanto en el arranque como en el tramo sostenido, sin decaer entre ambas fases."
+          }
+        },
+        {
+          "id": "fuerza-09",
+          "pillarId": "fuerza",
+          "order": 9,
+          "title": "Arrastre con cambio de dirección leve",
+          "level": "Intermedio",
+          "implemento": "Arnés de tiro + carga media + un giro suave marcado en el trayecto.",
+          "descripcion": "El perro arrastra la carga y ejecuta un cambio de dirección controlado a mitad del trayecto, sin perder tracción ni postura.",
+          "criterio": "Mantiene tracción y equilibrio durante el giro, sin frenar en seco ni desviarse de más.",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga media + un giro suave marcado en el trayecto.",
+            "Descripción": "El perro arrastra la carga y ejecuta un cambio de dirección controlado a mitad del trayecto, sin perder tracción ni postura.",
+            "Criterio para avanzar": "Mantiene tracción y equilibrio durante el giro, sin frenar en seco ni desviarse de más."
+          }
+        },
+        {
+          "id": "fuerza-10",
+          "pillarId": "fuerza",
+          "order": 10,
+          "title": "Arrastre pesado a trote sostenido",
+          "level": "Avanzado",
+          "implemento": "Arnés de tiro + carga alta (llanta grande o trineo con peso — weight pull).",
+          "descripcion": "El perro arrastra una carga considerable a trote sostenido en línea recta.",
+          "criterio": "Mantiene tracción constante y buena postura sin señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar).",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga alta (llanta grande o trineo con peso — weight pull).",
+            "Descripción": "El perro arrastra una carga considerable a trote sostenido en línea recta.",
+            "Criterio para avanzar": "Mantiene tracción constante y buena postura sin señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar)."
+          }
+        },
+        {
+          "id": "fuerza-11",
+          "pillarId": "fuerza",
+          "order": 11,
+          "title": "Sprint a máxima resistencia",
+          "level": "Avanzado",
+          "implemento": "Pechera con paracaídas de resistencia alta.",
+          "descripcion": "El perro corre a máxima velocidad posible contra la resistencia más alta del paracaídas, en distancia corta-media.",
+          "criterio": "Mantiene técnica de carrera y potencia de arranque pese a la resistencia máxima, sin comprometer la postura.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia alta.",
+            "Descripción": "El perro corre a máxima velocidad posible contra la resistencia más alta del paracaídas, en distancia corta-media.",
+            "Criterio para avanzar": "Mantiene técnica de carrera y potencia de arranque pese a la resistencia máxima, sin comprometer la postura."
+          }
+        },
+        {
+          "id": "fuerza-12",
+          "pillarId": "fuerza",
+          "order": 12,
+          "title": "Arrastre en cuesta pronunciada",
+          "level": "Avanzado",
+          "implemento": "Arnés de tiro + carga media-alta + pendiente considerable.",
+          "descripcion": "El perro arrastra la carga cuesta arriba en una pendiente exigente, combinando gravedad y resistencia de arrastre.",
+          "criterio": "Completa el tramo con tracción constante, sin perder ritmo ni detenerse.",
+          "fields": {
+            "Implemento": "Arnés de tiro + carga media-alta + pendiente considerable.",
+            "Descripción": "El perro arrastra la carga cuesta arriba en una pendiente exigente, combinando gravedad y resistencia de arrastre.",
+            "Criterio para avanzar": "Completa el tramo con tracción constante, sin perder ritmo ni detenerse."
+          }
+        },
+        {
+          "id": "fuerza-13",
+          "pillarId": "fuerza",
+          "order": 13,
+          "title": "Circuito combinado (arrastre + sprint)",
+          "level": "Avanzado",
+          "implemento": "Arnés de tiro con carga media + pechera con paracaídas, usados en secuencia dentro de la misma sesión.",
+          "descripcion": "El perro completa un tramo de arrastre y, tras un breve descanso, un sprint con paracaídas — enlazando ambos tipos de resistencia en la misma sesión de trabajo.",
+          "criterio": "Mantiene calidad de esfuerzo similar en ambas fases, sin que el arrastre previo comprometa el sprint.",
+          "fields": {
+            "Implemento": "Arnés de tiro con carga media + pechera con paracaídas, usados en secuencia dentro de la misma sesión.",
+            "Descripción": "El perro completa un tramo de arrastre y, tras un breve descanso, un sprint con paracaídas — enlazando ambos tipos de resistencia en la misma sesión de trabajo.",
+            "Criterio para avanzar": "Mantiene calidad de esfuerzo similar en ambas fases, sin que el arrastre previo comprometa el sprint."
+          }
+        },
+        {
+          "id": "fuerza-14",
+          "pillarId": "fuerza",
+          "order": 14,
+          "title": "Sprint con paracaídas y cambio de dirección",
+          "level": "Avanzado",
+          "implemento": "Pechera con paracaídas de resistencia alta.",
+          "descripcion": "El perro corre a máxima velocidad contra la resistencia y ejecuta un cambio de dirección controlado a mitad del sprint, sin perder potencia.",
+          "criterio": "El cambio de dirección es limpio y potente incluso bajo la resistencia máxima del paracaídas.",
+          "fields": {
+            "Implemento": "Pechera con paracaídas de resistencia alta.",
+            "Descripción": "El perro corre a máxima velocidad contra la resistencia y ejecuta un cambio de dirección controlado a mitad del sprint, sin perder potencia.",
+            "Criterio para avanzar": "El cambio de dirección es limpio y potente incluso bajo la resistencia máxima del paracaídas."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pliometria",
+      "name": "Pliometría",
+      "color": "fuchsia",
+      "tagline": "Convertir fuerza en impulso.",
+      "description": "Producir fuerza rápidamente en despegues, arranques y cambios de dirección. La explosividad se construye conservando la técnica.",
+      "observe": "Observa despegues y aterrizajes controlados.",
+      "generalNotes": [
+        "Nota general: el trabajo pliométrico es de alto impacto articular — siempre con calentamiento previo, superficie con buen agarre (evitar piso liso o muy duro), y descanso completo entre series para preservar la calidad del salto/aterrizaje."
+      ],
+      "levelObjectives": {
+        "Básico": "introducir el patrón de salto/despegue con control, sin buscar máxima altura ni velocidad todavía.",
+        "Intermedio": "aumentar altura, distancia y velocidad del salto; introducir aterrizajes más exigentes.",
+        "Avanzado": "máxima potencia, velocidad y precisión bajo exigencia física real, incluyendo combinaciones."
+      },
+      "levelCounts": {
+        "Básico": 5,
+        "Intermedio": 6,
+        "Avanzado": 6
+      },
+      "exerciseCount": 17,
+      "exercises": [
+        {
+          "id": "pliometria-01",
+          "pillarId": "pliometria",
+          "order": 1,
+          "title": "Salto vertical estático",
+          "level": "Básico",
+          "implemento": "Plataforma o cajón bajo (10-15 cm).",
+          "descripcion": "Desde posición parada y quieta, el perro salta hacia arriba para tocar/subir a la plataforma frente a él, sin carrera previa.",
+          "criterio": "Despegue limpio con las cuatro patas, sin dudar ni apoyarse antes de saltar.",
+          "fields": {
+            "Implemento": "Plataforma o cajón bajo (10-15 cm).",
+            "Descripción": "Desde posición parada y quieta, el perro salta hacia arriba para tocar/subir a la plataforma frente a él, sin carrera previa.",
+            "Criterio para avanzar": "Despegue limpio con las cuatro patas, sin dudar ni apoyarse antes de saltar."
+          }
+        },
+        {
+          "id": "pliometria-02",
+          "pillarId": "pliometria",
+          "order": 2,
+          "title": "Salto de longitud corto (broad jump)",
+          "level": "Básico",
+          "implemento": "2-3 tablas planas y bajas (o colchonetas delgadas/step bajos) colocadas en fila, una junto a otra, cubriendo toda la distancia a saltar (40-60 cm de ancho total). También sirve una plataforma ancha y baja de una sola pieza.",
+          "descripcion": "El perro debe saltar por encima de toda la fila de tablas en un solo salto, ya que están colocadas físicamente en el piso — no puede pisarlas ni caminar entre ellas, así que el único camino es saltar la distancia completa.",
+          "criterio": "Despeja toda la fila en un solo salto, sin tocar ni pisar las tablas, y aterriza controlado del otro lado.",
+          "fields": {
+            "Implemento": "2-3 tablas planas y bajas (o colchonetas delgadas/step bajos) colocadas en fila, una junto a otra, cubriendo toda la distancia a saltar (40-60 cm de ancho total). También sirve una plataforma ancha y baja de una sola pieza.",
+            "Descripción": "El perro debe saltar por encima de toda la fila de tablas en un solo salto, ya que están colocadas físicamente en el piso — no puede pisarlas ni caminar entre ellas, así que el único camino es saltar la distancia completa.",
+            "Criterio para avanzar": "Despeja toda la fila en un solo salto, sin tocar ni pisar las tablas, y aterriza controlado del otro lado."
+          }
+        },
+        {
+          "id": "pliometria-03",
+          "pillarId": "pliometria",
+          "order": 3,
+          "title": "Subida explosiva a plataforma",
+          "level": "Básico",
+          "implemento": "Step o plataforma baja y estable.",
+          "descripcion": "El perro sube con un solo impulso de tren trasero (no caminando escalón por escalón) a una plataforma baja.",
+          "criterio": "El impulso viene claramente del tren trasero, no de \"trepar\" con las patas delanteras.",
+          "fields": {
+            "Implemento": "Step o plataforma baja y estable.",
+            "Descripción": "El perro sube con un solo impulso de tren trasero (no caminando escalón por escalón) a una plataforma baja.",
+            "Criterio para avanzar": "El impulso viene claramente del tren trasero, no de \"trepar\" con las patas delanteras."
+          }
+        },
+        {
+          "id": "pliometria-04",
+          "pillarId": "pliometria",
+          "order": 4,
+          "title": "Salto lateral corto",
+          "level": "Básico",
+          "implemento": "Dos conos separados 50 cm.",
+          "descripcion": "El perro salta de lado a lado entre los dos conos, sin girar el cuerpo, solo desplazamiento lateral.",
+          "criterio": "Mantiene equilibrio y controla el aterrizaje en cada salto lateral.",
+          "fields": {
+            "Implemento": "Dos conos separados 50 cm.",
+            "Descripción": "El perro salta de lado a lado entre los dos conos, sin girar el cuerpo, solo desplazamiento lateral.",
+            "Criterio para avanzar": "Mantiene equilibrio y controla el aterrizaje en cada salto lateral."
+          }
+        },
+        {
+          "id": "pliometria-05",
+          "pillarId": "pliometria",
+          "order": 5,
+          "title": "Arranque explosivo desde posición sentada",
+          "level": "Básico",
+          "implemento": "Ninguno (espacio abierto).",
+          "descripcion": "Desde la posición de sentado, el perro debe arrancar con máxima explosividad hacia adelante a la señal del manejador.",
+          "criterio": "El primer paso es potente y decidido, sin \"acomodo\" previo antes de moverse.",
+          "fields": {
+            "Implemento": "Ninguno (espacio abierto).",
+            "Descripción": "Desde la posición de sentado, el perro debe arrancar con máxima explosividad hacia adelante a la señal del manejador.",
+            "Criterio para avanzar": "El primer paso es potente y decidido, sin \"acomodo\" previo antes de moverse."
+          }
+        },
+        {
+          "id": "pliometria-06",
+          "pillarId": "pliometria",
+          "order": 6,
+          "title": "Salto a plataforma elevada",
+          "level": "Intermedio",
+          "implemento": "Cajón o plataforma media (25-35 cm).",
+          "descripcion": "Con una corta carrera de aproximación (2-3 metros), el perro salta hacia la plataforma.",
+          "criterio": "Despegue con buen tiempo (ni muy cerca ni muy lejos del obstáculo) y aterrizaje estable arriba.",
+          "fields": {
+            "Implemento": "Cajón o plataforma media (25-35 cm).",
+            "Descripción": "Con una corta carrera de aproximación (2-3 metros), el perro salta hacia la plataforma.",
+            "Criterio para avanzar": "Despegue con buen tiempo (ni muy cerca ni muy lejos del obstáculo) y aterrizaje estable arriba."
+          }
+        },
+        {
+          "id": "pliometria-07",
+          "pillarId": "pliometria",
+          "order": 7,
+          "title": "Serie de saltos consecutivos (multi-salto bajo)",
+          "level": "Intermedio",
+          "implemento": "3-4 obstáculos bajos en línea, separados 1-1.5 metros.",
+          "descripcion": "El perro salta cada obstáculo en sucesión rápida, sin pausas entre saltos.",
+          "criterio": "Mantiene ritmo constante entre saltos sin perder velocidad ni técnica en el último obstáculo.",
+          "fields": {
+            "Implemento": "3-4 obstáculos bajos en línea, separados 1-1.5 metros.",
+            "Descripción": "El perro salta cada obstáculo en sucesión rápida, sin pausas entre saltos.",
+            "Criterio para avanzar": "Mantiene ritmo constante entre saltos sin perder velocidad ni técnica en el último obstáculo."
+          }
+        },
+        {
+          "id": "pliometria-08",
+          "pillarId": "pliometria",
+          "order": 8,
+          "title": "Salto con cambio de dirección en el aire",
+          "level": "Intermedio",
+          "implemento": "Obstáculo bajo + marcador de dirección post-aterrizaje.",
+          "descripcion": "El perro salta el obstáculo y, apenas aterriza, debe girar hacia un punto marcado a un lado, sin pasos extra de reacomodo.",
+          "criterio": "El cambio de dirección ocurre en el aterrizaje mismo, no un paso después.",
+          "fields": {
+            "Implemento": "Obstáculo bajo + marcador de dirección post-aterrizaje.",
+            "Descripción": "El perro salta el obstáculo y, apenas aterriza, debe girar hacia un punto marcado a un lado, sin pasos extra de reacomodo.",
+            "Criterio para avanzar": "El cambio de dirección ocurre en el aterrizaje mismo, no un paso después."
+          }
+        },
+        {
+          "id": "pliometria-09",
+          "pillarId": "pliometria",
+          "order": 9,
+          "title": "Salto lateral a distancia media",
+          "level": "Intermedio",
+          "implemento": "Dos conos separados 80-100 cm.",
+          "descripcion": "Igual que el ejercicio básico pero a mayor distancia, exigiendo más potencia lateral.",
+          "criterio": "Conserva equilibrio y no pierde altura de salto conforme se cansa.",
+          "fields": {
+            "Implemento": "Dos conos separados 80-100 cm.",
+            "Descripción": "Igual que el ejercicio básico pero a mayor distancia, exigiendo más potencia lateral.",
+            "Criterio para avanzar": "Conserva equilibrio y no pierde altura de salto conforme se cansa."
+          }
+        },
+        {
+          "id": "pliometria-10",
+          "pillarId": "pliometria",
+          "order": 10,
+          "title": "Sprint con frenado controlado",
+          "level": "Intermedio",
+          "implemento": "Marcador de parada en el piso.",
+          "descripcion": "El perro corre a buena velocidad y debe frenar de forma controlada (sin resbalar ni pasarse) justo en el punto marcado.",
+          "criterio": "Frena con el tren trasero comprometido (no \"arrastrando\" el frente), deteniéndose cerca del punto marcado.",
+          "fields": {
+            "Implemento": "Marcador de parada en el piso.",
+            "Descripción": "El perro corre a buena velocidad y debe frenar de forma controlada (sin resbalar ni pasarse) justo en el punto marcado.",
+            "Criterio para avanzar": "Frena con el tren trasero comprometido (no \"arrastrando\" el frente), deteniéndose cerca del punto marcado."
+          }
+        },
+        {
+          "id": "pliometria-11",
+          "pillarId": "pliometria",
+          "order": 11,
+          "title": "Caída controlada (depth drop)",
+          "level": "Intermedio",
+          "implemento": "Plataforma baja-media (20-25 cm) + superficie de aterrizaje suave.",
+          "descripcion": "El perro baja de la plataforma con un salto controlado (no un paso), aterrizando con las cuatro patas de forma amortiguada.",
+          "criterio": "Aterrizaje silencioso y absorbido, sin \"golpe seco\" ni rigidez en las patas.",
+          "fields": {
+            "Implemento": "Plataforma baja-media (20-25 cm) + superficie de aterrizaje suave.",
+            "Descripción": "El perro baja de la plataforma con un salto controlado (no un paso), aterrizando con las cuatro patas de forma amortiguada.",
+            "Criterio para avanzar": "Aterrizaje silencioso y absorbido, sin \"golpe seco\" ni rigidez en las patas."
+          }
+        },
+        {
+          "id": "pliometria-12",
+          "pillarId": "pliometria",
+          "order": 12,
+          "title": "Salto a máxima altura",
+          "level": "Avanzado",
+          "implemento": "Plataforma o cajón alto (según tamaño/capacidad del perro).",
+          "descripcion": "Con carrera de aproximación completa, el perro salta a la altura máxima segura y controlada para su estructura física.",
+          "criterio": "Despegue potente y aterrizaje limpio, sin señales de fatiga o compensación en la técnica.",
+          "fields": {
+            "Implemento": "Plataforma o cajón alto (según tamaño/capacidad del perro).",
+            "Descripción": "Con carrera de aproximación completa, el perro salta a la altura máxima segura y controlada para su estructura física.",
+            "Criterio para avanzar": "Despegue potente y aterrizaje limpio, sin señales de fatiga o compensación en la técnica."
+          }
+        },
+        {
+          "id": "pliometria-13",
+          "pillarId": "pliometria",
+          "order": 13,
+          "title": "Serie de saltos a velocidad máxima (bounding series)",
+          "level": "Avanzado",
+          "implemento": "4-5 obstáculos bajos-medios en línea, separación ajustada al zancada del perro.",
+          "descripcion": "El perro atraviesa la serie completa a velocidad de carrera, sin bajar el ritmo entre obstáculos.",
+          "criterio": "Mantiene velocidad y técnica constante del primer al último obstáculo.",
+          "fields": {
+            "Implemento": "4-5 obstáculos bajos-medios en línea, separación ajustada al zancada del perro.",
+            "Descripción": "El perro atraviesa la serie completa a velocidad de carrera, sin bajar el ritmo entre obstáculos.",
+            "Criterio para avanzar": "Mantiene velocidad y técnica constante del primer al último obstáculo."
+          }
+        },
+        {
+          "id": "pliometria-14",
+          "pillarId": "pliometria",
+          "order": 14,
+          "title": "Salto con giro en el aire",
+          "level": "Avanzado",
+          "implemento": "Obstáculo medio + señuelo/objetivo lateral.",
+          "descripcion": "El perro salta el obstáculo y gira el cuerpo en pleno aire para orientarse hacia un objetivo lateral antes de aterrizar.",
+          "criterio": "El giro se ejecuta en el aire (no post-aterrizaje) y el aterrizaje sigue siendo controlado.",
+          "fields": {
+            "Implemento": "Obstáculo medio + señuelo/objetivo lateral.",
+            "Descripción": "El perro salta el obstáculo y gira el cuerpo en pleno aire para orientarse hacia un objetivo lateral antes de aterrizar.",
+            "Criterio para avanzar": "El giro se ejecuta en el aire (no post-aterrizaje) y el aterrizaje sigue siendo controlado."
+          }
+        },
+        {
+          "id": "pliometria-15",
+          "pillarId": "pliometria",
+          "order": 15,
+          "title": "Salto de longitud máxima",
+          "level": "Avanzado",
+          "implemento": "3-4 tablas planas bajas en fila, cubriendo una distancia mayor que en el ejercicio básico.",
+          "descripcion": "Salto de longitud a la distancia máxima segura para el perro, con carrera de aproximación, despejando toda la fila de tablas en un solo salto.",
+          "criterio": "Aterrizaje absorbido y estable pese a la distancia, sin tropiezo ni pérdida de equilibrio.",
+          "fields": {
+            "Implemento": "3-4 tablas planas bajas en fila, cubriendo una distancia mayor que en el ejercicio básico.",
+            "Descripción": "Salto de longitud a la distancia máxima segura para el perro, con carrera de aproximación, despejando toda la fila de tablas en un solo salto.",
+            "Criterio para avanzar": "Aterrizaje absorbido y estable pese a la distancia, sin tropiezo ni pérdida de equilibrio."
+          }
+        },
+        {
+          "id": "pliometria-16",
+          "pillarId": "pliometria",
+          "order": 16,
+          "title": "Cambios de dirección explosivos a máxima velocidad",
+          "level": "Avanzado",
+          "implemento": "Conos dispuestos en patrón irregular.",
+          "descripcion": "El perro corre a máxima velocidad y ejecuta cambios de dirección bruscos en cada cono, sin bajar el ritmo entre cada uno.",
+          "criterio": "Los cambios de dirección son explosivos y precisos incluso al final del recorrido, sin fatiga visible en la técnica.",
+          "fields": {
+            "Implemento": "Conos dispuestos en patrón irregular.",
+            "Descripción": "El perro corre a máxima velocidad y ejecuta cambios de dirección bruscos en cada cono, sin bajar el ritmo entre cada uno.",
+            "Criterio para avanzar": "Los cambios de dirección son explosivos y precisos incluso al final del recorrido, sin fatiga visible en la técnica."
+          }
+        },
+        {
+          "id": "pliometria-17",
+          "pillarId": "pliometria",
+          "order": 17,
+          "title": "Circuito combinado (salto-carrera-salto)",
+          "level": "Avanzado",
+          "implemento": "Combinación de plataformas, obstáculos bajos y tramo de sprint.",
+          "descripcion": "Circuito completo que integra salto vertical, sprint corto y salto de longitud en una sola secuencia fluida.",
+          "criterio": "El perro mantiene potencia y técnica consistente en las tres fases del circuito, sin degradación notable hacia el final.",
+          "fields": {
+            "Implemento": "Combinación de plataformas, obstáculos bajos y tramo de sprint.",
+            "Descripción": "Circuito completo que integra salto vertical, sprint corto y salto de longitud en una sola secuencia fluida.",
+            "Criterio para avanzar": "El perro mantiene potencia y técnica consistente en las tres fases del circuito, sin degradación notable hacia el final."
+          }
+        }
+      ]
+    },
+    {
+      "id": "resistencia",
+      "name": "Resistencia",
+      "color": "emerald",
+      "tagline": "Mantener esfuerzo y técnica.",
+      "description": "Sostener el esfuerzo a lo largo de una actividad o de varias repeticiones, sin que la ejecución se deteriore.",
+      "observe": "Observa si el ritmo y la técnica se mantienen entre repeticiones.",
+      "generalNotes": [
+        "Nota general: el trabajo de resistencia es acumulativo — los descansos entre repeticiones se acortan gradualmente conforme el perro se acondiciona, nunca de golpe. Para bicicleta, usar siempre un enganche especializado (tipo \"springer\") fijo al cuadro, nunca sostener la correa con la mano; evitar superficies calientes y trabajar en horarios frescos, con acceso a agua antes y después.",
+        "Nota sobre presentación del objeto en los ejercicios de persecución: tomado de la mano del dueño (sin lanzar) es lo más fácil, rodado por el piso es intermedio, y lanzado por el aire es lo más exigente — se puede subir la dificultad de un mismo ejercicio solo cambiando la forma de presentación."
+      ],
+      "levelObjectives": {},
+      "levelCounts": {
+        "Básico": 2,
+        "Intermedio": 3,
+        "Avanzado": 3
+      },
+      "exerciseCount": 8,
+      "exercises": [
+        {
+          "id": "resistencia-01",
+          "pillarId": "resistencia",
+          "order": 1,
+          "title": "Carrera junto a bicicleta (distancia corta)",
+          "level": "Básico",
+          "implemento": "Bicicleta + enganche especializado para bici.",
+          "descripcion": "El perro corre a paso parejo junto a la bicicleta en terreno plano, a velocidad cómoda y constante.",
+          "criterio": "Mantiene el ritmo parejo sin jadeo excesivo ni necesidad de parar antes de terminar.",
+          "fields": {
+            "Implemento": "Bicicleta + enganche especializado para bici.",
+            "Descripción": "El perro corre a paso parejo junto a la bicicleta en terreno plano, a velocidad cómoda y constante.",
+            "Criterio para avanzar": "Mantiene el ritmo parejo sin jadeo excesivo ni necesidad de parar antes de terminar."
+          }
+        },
+        {
+          "id": "resistencia-02",
+          "pillarId": "resistencia",
+          "order": 2,
+          "title": "Persecución repetida de baja intensidad (volumen)",
+          "level": "Básico",
+          "implemento": "Pelota de tenis o disco.",
+          "descripcion": "El manejador presenta el objeto rodándolo por el piso o entregándolo directamente de la mano (sin lanzar), repitiendo el ciclo muchas veces a corta-media distancia; el perro persigue y regresa una y otra vez. El volumen de repeticiones es lo que genera la carga cardiovascular, no la intensidad de cada una.",
+          "criterio": "Mantiene velocidad e interés constante durante toda la sesión, sin decaer hacia el final.",
+          "fields": {
+            "Implemento": "Pelota de tenis o disco.",
+            "Descripción": "El manejador presenta el objeto rodándolo por el piso o entregándolo directamente de la mano (sin lanzar), repitiendo el ciclo muchas veces a corta-media distancia; el perro persigue y regresa una y otra vez. El volumen de repeticiones es lo que genera la carga cardiovascular, no la intensidad de cada una.",
+            "Criterio para avanzar": "Mantiene velocidad e interés constante durante toda la sesión, sin decaer hacia el final."
+          }
+        },
+        {
+          "id": "resistencia-03",
+          "pillarId": "resistencia",
+          "order": 3,
+          "title": "Carrera sostenida con bicicleta (distancia media)",
+          "level": "Intermedio",
+          "implemento": "Bicicleta + enganche especializado.",
+          "descripcion": "Carrera sostenida a mayor distancia y con tramos de velocidad ligeramente más alta que en el nivel básico.",
+          "criterio": "Mantiene el ritmo sin señales de fatiga marcada (jadeo excesivo, bajar la cabeza, aflojar el paso) antes del final.",
+          "fields": {
+            "Implemento": "Bicicleta + enganche especializado.",
+            "Descripción": "Carrera sostenida a mayor distancia y con tramos de velocidad ligeramente más alta que en el nivel básico.",
+            "Criterio para avanzar": "Mantiene el ritmo sin señales de fatiga marcada (jadeo excesivo, bajar la cabeza, aflojar el paso) antes del final."
+          }
+        },
+        {
+          "id": "resistencia-04",
+          "pillarId": "resistencia",
+          "order": 4,
+          "title": "Intervalos cortos (sprint-descanso)",
+          "level": "Intermedio",
+          "implemento": "Ninguno o pelota de lanzamiento.",
+          "descripcion": "Alterna sprints cortos de alta intensidad con periodos de descanso activo (caminata) entre cada uno.",
+          "criterio": "La velocidad del último sprint es comparable a la del primero.",
+          "fields": {
+            "Implemento": "Ninguno o pelota de lanzamiento.",
+            "Descripción": "Alterna sprints cortos de alta intensidad con periodos de descanso activo (caminata) entre cada uno.",
+            "Criterio para avanzar": "La velocidad del último sprint es comparable a la del primero."
+          }
+        },
+        {
+          "id": "resistencia-05",
+          "pillarId": "resistencia",
+          "order": 5,
+          "title": "Persecución repetida a mayor volumen (terreno plano)",
+          "level": "Intermedio",
+          "implemento": "Dos pelotas o discos (para alternar el lanzamiento sin pausas de recolección).",
+          "descripcion": "El manejador alterna el lanzamiento del objeto por el aire (mayor exigencia que rodarlo) entre dos objetos, para que el perro esté en movimiento casi continuo, aumentando tanto el volumen como la intensidad por repetición respecto al nivel básico.",
+          "criterio": "Mantiene el mismo ritmo de persecución en el minuto 15 que en el minuto 1.",
+          "fields": {
+            "Implemento": "Dos pelotas o discos (para alternar el lanzamiento sin pausas de recolección).",
+            "Descripción": "El manejador alterna el lanzamiento del objeto por el aire (mayor exigencia que rodarlo) entre dos objetos, para que el perro esté en movimiento casi continuo, aumentando tanto el volumen como la intensidad por repetición respecto al nivel básico.",
+            "Criterio para avanzar": "Mantiene el mismo ritmo de persecución en el minuto 15 que en el minuto 1."
+          }
+        },
+        {
+          "id": "resistencia-06",
+          "pillarId": "resistencia",
+          "order": 6,
+          "title": "Carrera sostenida con bicicleta (distancia larga)",
+          "level": "Avanzado",
+          "implemento": "Bicicleta + enganche especializado.",
+          "descripcion": "Sesión larga a velocidad sostenida, superior a la del nivel intermedio, en terreno plano o con desnivel leve.",
+          "criterio": "Mantiene el ritmo de principio a fin sin necesidad de bajar la velocidad hacia el final.",
+          "fields": {
+            "Implemento": "Bicicleta + enganche especializado.",
+            "Descripción": "Sesión larga a velocidad sostenida, superior a la del nivel intermedio, en terreno plano o con desnivel leve.",
+            "Criterio para avanzar": "Mantiene el ritmo de principio a fin sin necesidad de bajar la velocidad hacia el final."
+          }
+        },
+        {
+          "id": "resistencia-07",
+          "pillarId": "resistencia",
+          "order": 7,
+          "title": "Intervalos de alta intensidad",
+          "level": "Avanzado",
+          "implemento": "Ninguno o pelota de lanzamiento.",
+          "descripcion": "Sprints repetidos a máxima intensidad con descansos muy cortos, simulando la exigencia de esfuerzos repetidos en poco tiempo.",
+          "criterio": "Mantiene velocidad e intensidad consistentes en todas las repeticiones, incluso las últimas.",
+          "fields": {
+            "Implemento": "Ninguno o pelota de lanzamiento.",
+            "Descripción": "Sprints repetidos a máxima intensidad con descansos muy cortos, simulando la exigencia de esfuerzos repetidos en poco tiempo.",
+            "Criterio para avanzar": "Mantiene velocidad e intensidad consistentes en todas las repeticiones, incluso las últimas."
+          }
+        },
+        {
+          "id": "resistencia-08",
+          "pillarId": "resistencia",
+          "order": 8,
+          "title": "Serie consecutiva de alta exigencia (simulación de carga competitiva)",
+          "level": "Avanzado",
+          "implemento": "Pelota o juguete de lanzamiento.",
+          "descripcion": "Múltiples repeticiones de carrera a máxima velocidad, siempre con el objeto lanzado por el aire (máxima exigencia de presentación), con descansos mínimos, simulando el desgaste acumulado de una jornada de competencia con varias corridas seguidas.",
+          "criterio": "La velocidad y técnica se mantienen estables hasta la última repetición, sin caída notable de rendimiento.",
+          "fields": {
+            "Implemento": "Pelota o juguete de lanzamiento.",
+            "Descripción": "Múltiples repeticiones de carrera a máxima velocidad, siempre con el objeto lanzado por el aire (máxima exigencia de presentación), con descansos mínimos, simulando el desgaste acumulado de una jornada de competencia con varias corridas seguidas.",
+            "Criterio para avanzar": "La velocidad y técnica se mantienen estables hasta la última repetición, sin caída notable de rendimiento."
+          }
+        }
+      ]
+    },
+    {
+      "id": "obstaculos",
+      "name": "Obstáculos",
+      "color": "indigo",
+      "tagline": "Resolver apoyos y recorridos.",
+      "description": "Aprender a cruzar obstáculos, acceder a plataformas y conectar entradas, apoyos y salidas. Cada implemento exige un aprendizaje específico; no todos son necesarios en todos los deportes. La presa es la motivación para alcanzar el objeto; la mordida es la técnica para agarrarlo y transportarlo.",
+      "observe": "Observa la trayectoria, los apoyos y una salida estable.",
+      "generalNotes": [
+        "Nota general: usar implementos estables, sin bordes cortantes y con superficies antideslizantes. Dejar espacio libre para la entrada y la salida. Comenzar con calentamiento y descansar entre pasadas; las repeticiones son orientativas y no hace falta realizar todos los ejercicios en una sesión. Trabajar primero la trayectoria y la comprensión del movimiento, sin buscar altura ni velocidad máxima. Si el perro pierde el apoyo o la línea, simplificar la tarea antes de repetir.",
+        "Implementos: aquí, \"mesa\" significa una plataforma baja, amplia y firme de entrenamiento, no una mesa doméstica alta. La \"tabla de rebote\" es una superficie rígida con inclinación ajustable y soporte que impida que se deslice o vuelque; no es una tabla basculante. Rebotar significa entrar, apoyar las cuatro patas, cambiar de dirección e impulsarse para salir. Primero se enseña el movimiento por partes, sin pelota y con aproximaciones cortas."
+      ],
+      "levelObjectives": {
+        "Básico": "aprender el paso por las vallas y las posiciones de entrada, apoyo y salida en mesa y tabla.",
+        "Intermedio": "conservar el recorrido de vallas y unir la entrada, el apoyo y la salida para construir el rebote."
+      },
+      "levelCounts": {
+        "Básico": 5,
+        "Intermedio": 6
+      },
+      "exerciseCount": 11,
+      "exercises": [
+        {
+          "id": "obstaculos-01",
+          "pillarId": "obstaculos",
+          "order": 1,
+          "title": "Cruce por el centro de una valla",
+          "level": "Básico",
+          "implemento": "Una valla con listón a ras del suelo + premios + ayudante.",
+          "descripcion": "El ayudante coloca al perro frente al centro de la valla, a poca distancia. El manejador se sitúa al otro lado, alineado con él, y lo invita a pasar entre los soportes. Premiar después del cruce, sobre esa misma línea. Cuando comprenda por dónde pasar, introducir un listón bajo que pueda superar cómodamente.",
+          "criterio": "Cruza por el centro sin rodear los soportes ni tocar el listón, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Una valla con listón a ras del suelo + premios + ayudante.",
+            "Descripción": "El ayudante coloca al perro frente al centro de la valla, a poca distancia. El manejador se sitúa al otro lado, alineado con él, y lo invita a pasar entre los soportes. Premiar después del cruce, sobre esa misma línea. Cuando comprenda por dónde pasar, introducir un listón bajo que pueda superar cómodamente.",
+            "Criterio para avanzar": "Cruza por el centro sin rodear los soportes ni tocar el listón, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-02",
+          "pillarId": "obstaculos",
+          "order": 2,
+          "title": "Cruce de la valla en ambos sentidos",
+          "level": "Básico",
+          "implemento": "Una valla baja + premios.",
+          "descripcion": "Practicar una pasada de ida y premiar. Después, alejarse de la valla, recolocar al perro de frente y practicar una pasada en sentido contrario. Cada cruce comienza con el perro alineado; el cambio de sentido se hace lejos del obstáculo, sin pedir que gire al aterrizar.",
+          "criterio": "Supera la valla sin dudar ni rodearla en ambos sentidos, en 5 de 6 cruces.",
+          "fields": {
+            "Implemento": "Una valla baja + premios.",
+            "Descripción": "Practicar una pasada de ida y premiar. Después, alejarse de la valla, recolocar al perro de frente y practicar una pasada en sentido contrario. Cada cruce comienza con el perro alineado; el cambio de sentido se hace lejos del obstáculo, sin pedir que gire al aterrizar.",
+            "Criterio para avanzar": "Supera la valla sin dudar ni rodearla en ambos sentidos, en 5 de 6 cruces."
+          }
+        },
+        {
+          "id": "obstaculos-03",
+          "pillarId": "obstaculos",
+          "order": 3,
+          "title": "Continuación recta después de la valla",
+          "level": "Básico",
+          "implemento": "Una valla baja + marca plana de llegada + premios.",
+          "descripcion": "Colocar una marca de llegada 2-3 metros después de la valla, alineada con su centro. El manejador espera junto a la marca y recibe allí al perro tras el cruce. Entregar el premio en ese punto para que aprenda a continuar hacia delante en lugar de detenerse o desviarse justo después del salto.",
+          "criterio": "Cruza y continúa hasta la marca sin detenerse junto a la valla ni desviarse hacia un costado, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Una valla baja + marca plana de llegada + premios.",
+            "Descripción": "Colocar una marca de llegada 2-3 metros después de la valla, alineada con su centro. El manejador espera junto a la marca y recibe allí al perro tras el cruce. Entregar el premio en ese punto para que aprenda a continuar hacia delante en lugar de detenerse o desviarse justo después del salto.",
+            "Criterio para avanzar": "Cruza y continúa hasta la marca sin detenerse junto a la valla ni desviarse hacia un costado, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-04",
+          "pillarId": "obstaculos",
+          "order": 4,
+          "title": "Entrada y salida lateral de la mesa",
+          "level": "Básico",
+          "implemento": "Mesa baja de entrenamiento + premios.",
+          "descripcion": "Guiar al perro desde un lateral para que suba y coloque las cuatro patas sobre la mesa. Con la mano cerca del hocico, conducirlo hacia un borde de salida distinto del de entrada y premiar la posición antes de permitirle bajar. La mesa debe tener espacio para que dé pasos al cambiar de dirección; en esta etapa no se busca un salto explosivo ni un rebote.",
+          "criterio": "Entra, coloca las cuatro patas y sale por el borde indicado sin resbalar ni precipitarse, en 3 de 4 intentos.",
+          "fields": {
+            "Implemento": "Mesa baja de entrenamiento + premios.",
+            "Descripción": "Guiar al perro desde un lateral para que suba y coloque las cuatro patas sobre la mesa. Con la mano cerca del hocico, conducirlo hacia un borde de salida distinto del de entrada y premiar la posición antes de permitirle bajar. La mesa debe tener espacio para que dé pasos al cambiar de dirección; en esta etapa no se busca un salto explosivo ni un rebote.",
+            "Criterio para avanzar": "Entra, coloca las cuatro patas y sale por el borde indicado sin resbalar ni precipitarse, en 3 de 4 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-05",
+          "pillarId": "obstaculos",
+          "order": 5,
+          "title": "Apoyo y vuelta sobre la tabla casi plana",
+          "level": "Básico",
+          "implemento": "Tabla de rebote inicialmente plana o con inclinación mínima + premios.",
+          "descripcion": "Comenzar con el perro junto a la tabla. Guiarlo para que entre, coloque las cuatro patas sobre la superficie y describa una vuelta hacia su lado de giro más cómodo. Entregar el premio al salir hacia el punto de partida. Dividir la tarea si hace falta: primero premiar el apoyo y luego enseñar la salida. Mantener el mismo lado de giro durante el aprendizaje.",
+          "criterio": "Apoya las cuatro patas sobre la tabla y vuelve hacia la salida indicada sin rodearla ni deslizarse, en 3 de 4 intentos.",
+          "fields": {
+            "Implemento": "Tabla de rebote inicialmente plana o con inclinación mínima + premios.",
+            "Descripción": "Comenzar con el perro junto a la tabla. Guiarlo para que entre, coloque las cuatro patas sobre la superficie y describa una vuelta hacia su lado de giro más cómodo. Entregar el premio al salir hacia el punto de partida. Dividir la tarea si hace falta: primero premiar el apoyo y luego enseñar la salida. Mantener el mismo lado de giro durante el aprendizaje.",
+            "Criterio para avanzar": "Apoya las cuatro patas sobre la tabla y vuelve hacia la salida indicada sin rodearla ni deslizarse, en 3 de 4 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-06",
+          "pillarId": "obstaculos",
+          "order": 6,
+          "title": "Construcción del recorrido desde la última valla",
+          "level": "Intermedio",
+          "implemento": "Tres vallas bajas alineadas + premios + ayudante.",
+          "descripcion": "Comenzar pasando únicamente la última valla y premiar al final. Cuando esa salida sea clara, colocar al perro antes de la penúltima para que cruce las dos finales. Después iniciar antes de la primera para completar las tres. Mantener la misma zona de premio y una separación que permita un paso cómodo; añadir una valla solo cuando complete el tramo anterior sin ayuda junto a cada obstáculo.",
+          "criterio": "Completa las tres vallas en orden, sin rodear ninguna ni detenerse a pedir indicaciones entre ellas, en 3 de 4 pasadas.",
+          "fields": {
+            "Implemento": "Tres vallas bajas alineadas + premios + ayudante.",
+            "Descripción": "Comenzar pasando únicamente la última valla y premiar al final. Cuando esa salida sea clara, colocar al perro antes de la penúltima para que cruce las dos finales. Después iniciar antes de la primera para completar las tres. Mantener la misma zona de premio y una separación que permita un paso cómodo; añadir una valla solo cuando complete el tramo anterior sin ayuda junto a cada obstáculo.",
+            "Criterio para avanzar": "Completa las tres vallas en orden, sin rodear ninguna ni detenerse a pedir indicaciones entre ellas, en 3 de 4 pasadas."
+          }
+        },
+        {
+          "id": "obstaculos-07",
+          "pillarId": "obstaculos",
+          "order": 7,
+          "title": "Recorrido con el manejador fuera de la línea",
+          "level": "Intermedio",
+          "implemento": "Dos vallas bajas alineadas + marca plana de llegada + premios + ayudante.",
+          "descripcion": "Usar una secuencia de dos vallas que el perro ya conozca. El manejador comienza junto a la marca de llegada, ligeramente desplazado hacia un costado. El ayudante da la salida con el perro centrado. El manejador entrega el premio sobre la marca, después de la última valla, para mantener el destino del recorrido. Aumentar poco a poco su separación lateral y practicar ambos lados.",
+          "criterio": "Cruza las dos vallas y llega a la marca sin salirse del recorrido para ir directamente hacia el manejador, en 3 de 4 pasadas.",
+          "fields": {
+            "Implemento": "Dos vallas bajas alineadas + marca plana de llegada + premios + ayudante.",
+            "Descripción": "Usar una secuencia de dos vallas que el perro ya conozca. El manejador comienza junto a la marca de llegada, ligeramente desplazado hacia un costado. El ayudante da la salida con el perro centrado. El manejador entrega el premio sobre la marca, después de la última valla, para mantener el destino del recorrido. Aumentar poco a poco su separación lateral y practicar ambos lados.",
+            "Criterio para avanzar": "Cruza las dos vallas y llega a la marca sin salirse del recorrido para ir directamente hacia el manejador, en 3 de 4 pasadas."
+          }
+        },
+        {
+          "id": "obstaculos-08",
+          "pillarId": "obstaculos",
+          "order": 8,
+          "title": "Entrada desde distintos puntos de salida",
+          "level": "Intermedio",
+          "implemento": "Dos vallas bajas alineadas + marcas de salida + premios + ayudante.",
+          "descripcion": "Marcar tres salidas: una centrada y dos ligeramente desplazadas a derecha e izquierda, con espacio suficiente antes de la primera valla. Empezar por la central. Después probar cada salida lateral, orientando al perro hacia el centro de la primera valla. El manejador permanece al final del recorrido; el perro debe ajustar la entrada y continuar por ambas vallas sin una mano guía delante del hocico.",
+          "criterio": "Entra por el centro de la primera valla y completa la segunda sin rodear los soportes desde los tres puntos de salida.",
+          "fields": {
+            "Implemento": "Dos vallas bajas alineadas + marcas de salida + premios + ayudante.",
+            "Descripción": "Marcar tres salidas: una centrada y dos ligeramente desplazadas a derecha e izquierda, con espacio suficiente antes de la primera valla. Empezar por la central. Después probar cada salida lateral, orientando al perro hacia el centro de la primera valla. El manejador permanece al final del recorrido; el perro debe ajustar la entrada y continuar por ambas vallas sin una mano guía delante del hocico.",
+            "Criterio para avanzar": "Entra por el centro de la primera valla y completa la segunda sin rodear los soportes desde los tres puntos de salida."
+          }
+        },
+        {
+          "id": "obstaculos-09",
+          "pillarId": "obstaculos",
+          "order": 9,
+          "title": "Cambio de dirección continuo sobre la mesa",
+          "level": "Intermedio",
+          "implemento": "Mesa baja de entrenamiento + premio o juguete de recompensa.",
+          "descripcion": "Una vez aprendidas las entradas y salidas, iniciar a 1-2 metros de la mesa. Guiar una entrada oblicua, el apoyo de las cuatro patas y una salida hacia el manejador, situado del lado de regreso. Unir las fases sin una parada para recibir comida sobre la mesa; premiar después de salir. Buscar una vuelta fluida, dejando espacio para apoyar y girar, sin exigir que pivote sobre patas fijas.",
+          "criterio": "Enlaza entrada, apoyo y salida sin detenerse sobre la mesa, saltarse el apoyo de las patas traseras ni perder el equilibrio, en 3 de 4 intentos.",
+          "fields": {
+            "Implemento": "Mesa baja de entrenamiento + premio o juguete de recompensa.",
+            "Descripción": "Una vez aprendidas las entradas y salidas, iniciar a 1-2 metros de la mesa. Guiar una entrada oblicua, el apoyo de las cuatro patas y una salida hacia el manejador, situado del lado de regreso. Unir las fases sin una parada para recibir comida sobre la mesa; premiar después de salir. Buscar una vuelta fluida, dejando espacio para apoyar y girar, sin exigir que pivote sobre patas fijas.",
+            "Criterio para avanzar": "Enlaza entrada, apoyo y salida sin detenerse sobre la mesa, saltarse el apoyo de las patas traseras ni perder el equilibrio, en 3 de 4 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-10",
+          "pillarId": "obstaculos",
+          "order": 10,
+          "title": "Rebote sobre la tabla inclinada",
+          "level": "Intermedio",
+          "implemento": "Tabla de rebote con inclinación ajustable y soporte firme + premio o juguete de recompensa.",
+          "descripcion": "Partir de la vuelta ya aprendida sobre la tabla casi plana. Elevar ligeramente la inclinación y comenzar de nuevo desde muy cerca. Guiar una entrada oblicua para que las patas delanteras contacten la tabla, las traseras acompañen el apoyo y el perro se impulse de regreso hacia el manejador. Premiar en la salida. Mantener el lado de giro aprendido; aumentar la inclinación solo cuando conserve los cuatro apoyos y una salida fluida, sin aumentar a la vez la distancia de aproximación.",
+          "criterio": "Contacta con las cuatro patas y sale hacia el punto de regreso sin golpear de frente, resbalar ni quedarse trepando sobre la tabla, en 3 de 4 intentos.",
+          "fields": {
+            "Implemento": "Tabla de rebote con inclinación ajustable y soporte firme + premio o juguete de recompensa.",
+            "Descripción": "Partir de la vuelta ya aprendida sobre la tabla casi plana. Elevar ligeramente la inclinación y comenzar de nuevo desde muy cerca. Guiar una entrada oblicua para que las patas delanteras contacten la tabla, las traseras acompañen el apoyo y el perro se impulse de regreso hacia el manejador. Premiar en la salida. Mantener el lado de giro aprendido; aumentar la inclinación solo cuando conserve los cuatro apoyos y una salida fluida, sin aumentar a la vez la distancia de aproximación.",
+            "Criterio para avanzar": "Contacta con las cuatro patas y sale hacia el punto de regreso sin golpear de frente, resbalar ni quedarse trepando sobre la tabla, en 3 de 4 intentos."
+          }
+        },
+        {
+          "id": "obstaculos-11",
+          "pillarId": "obstaculos",
+          "order": 11,
+          "title": "Enlace de una valla con la tabla de rebote",
+          "level": "Intermedio",
+          "implemento": "Una valla baja + tabla de rebote en la inclinación ya dominada + premio o juguete + ayudante.",
+          "descripcion": "Colocar la valla en la línea de ida y regreso, con espacio suficiente hasta la tabla para preparar la entrada y recuperar la trayectoria al salir. El ayudante coloca al perro antes de la valla; el manejador lo recibe detrás del punto de salida. El perro cruza la valla, realiza la vuelta en la tabla y cruza de nuevo la valla al regresar. Empezar con aproximación corta y premiar al terminar; si pierde la vuelta o evita la valla de regreso, volver a trabajar ese tramo por separado.",
+          "criterio": "Completa valla, rebote con cuatro apoyos y valla de regreso sin rodear los implementos ni necesitar guía junto a la tabla, en 3 secuencias correctas repartidas entre sesiones.",
+          "fields": {
+            "Implemento": "Una valla baja + tabla de rebote en la inclinación ya dominada + premio o juguete + ayudante.",
+            "Descripción": "Colocar la valla en la línea de ida y regreso, con espacio suficiente hasta la tabla para preparar la entrada y recuperar la trayectoria al salir. El ayudante coloca al perro antes de la valla; el manejador lo recibe detrás del punto de salida. El perro cruza la valla, realiza la vuelta en la tabla y cruza de nuevo la valla al regresar. Empezar con aproximación corta y premiar al terminar; si pierde la vuelta o evita la valla de regreso, volver a trabajar ese tramo por separado.",
+            "Criterio para avanzar": "Completa valla, rebote con cuatro apoyos y valla de regreso sin rodear los implementos ni necesitar guía junto a la tabla, en 3 secuencias correctas repartidas entre sesiones."
+          }
+        }
+      ]
+    }
+  ]
+}
