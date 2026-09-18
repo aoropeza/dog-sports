@@ -24,3 +24,8 @@ export function pillarMatches(pillar: Pillar, q: string) {
 export function visibleExercises(pillar: Pillar, q: string, activeLevels: Set<Level>) {
   return pillar.exercises.filter((ex) => activeLevels.has(ex.level) && exerciseMatches(ex, q));
 }
+
+/** Whether a pillar actually spans more than one level — when it doesn't, level badges add no information. */
+export function hasMultipleLevels(pillar: Pillar) {
+  return Object.values(pillar.levelCounts).filter((count) => (count ?? 0) > 0).length > 1;
+}

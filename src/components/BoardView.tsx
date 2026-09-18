@@ -6,7 +6,7 @@ import type { Level } from "@/types/knowledge";
 import { useAppStore } from "@/store/useAppStore";
 import { getPillarAccent, LEVEL_ACCENTS } from "@/lib/colors";
 import { PILLAR_ICONS } from "@/lib/pillarIcons";
-import { pillarMatches, visibleExercises, normalize } from "@/lib/filter";
+import { pillarMatches, visibleExercises, normalize, hasMultipleLevels } from "@/lib/filter";
 import { ExerciseCard } from "@/components/cards/ExerciseCard";
 
 const LEVELS: Level[] = ["Básico", "Intermedio", "Avanzado"];
@@ -27,6 +27,7 @@ export function BoardView({ knowledge }: { knowledge: Knowledge }) {
         const cards = visibleExercises(pillar, q, activeLevels);
         const nameMatches = pillarMatches(pillar, q);
         const hiddenBySearch = q.length > 0 && cards.length === 0 && !nameMatches;
+        const showLevels = hasMultipleLevels(pillar);
 
         if (hiddenBySearch) return null;
 
@@ -56,7 +57,7 @@ export function BoardView({ knowledge }: { knowledge: Knowledge }) {
                 </div>
               </div>
               <p className="mt-1.5 line-clamp-2 text-[12.5px] leading-snug text-[var(--fg-subtle)]">{pillar.tagline}</p>
-              <div className="mt-2 flex items-center gap-1.5">
+              <div className={`mt-2 flex items-center gap-1.5 ${showLevels ? "" : "invisible"}`}>
                 {LEVELS.map((lvl) => {
                   const count = pillar.levelCounts[lvl] ?? 0;
                   return (
@@ -79,7 +80,7 @@ export function BoardView({ knowledge }: { knowledge: Knowledge }) {
             <div className="flex-1 overflow-y-auto px-2.5 py-2.5">
               <div className="flex flex-col gap-2">
                 {cards.map((ex) => (
-                  <ExerciseCard key={ex.id} exercise={ex} accentHex={accent.hex} />
+                  <ExerciseCard key={ex.id} exercise={ex} accentHex={accent.hex} showLevel={showLevels} />
                 ))}
                 {cards.length === 0 && (
                   <p className="px-1 py-6 text-center text-[12.5px] text-[var(--fg-muted)]">Sin ejercicios con estos filtros</p>

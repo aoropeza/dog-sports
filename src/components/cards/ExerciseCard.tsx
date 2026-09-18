@@ -6,7 +6,15 @@ import { LEVEL_ACCENTS } from "@/lib/colors";
 import { useAppStore } from "@/store/useAppStore";
 import { cn } from "@/lib/utils";
 
-export function ExerciseCard({ exercise, accentHex }: { exercise: Exercise; accentHex: string }) {
+export function ExerciseCard({
+  exercise,
+  accentHex,
+  showLevel = true,
+}: {
+  exercise: Exercise;
+  accentHex: string;
+  showLevel?: boolean;
+}) {
   const selectedId = useAppStore((s) => s.selectedExerciseId);
   const selectExercise = useAppStore((s) => s.selectExercise);
   const level = LEVEL_ACCENTS[exercise.level];
@@ -35,7 +43,10 @@ export function ExerciseCard({ exercise, accentHex }: { exercise: Exercise; acce
       <div className="flex items-center justify-between gap-2">
         <span className="font-mono text-[11.5px] text-[var(--fg-muted)]">#{String(exercise.order).padStart(2, "0")}</span>
         <span
-          className="rounded-full px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide"
+          className={cn(
+            "rounded-full px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide",
+            !showLevel && "invisible",
+          )}
           style={{ background: level.soft, color: level.hex }}
         >
           {exercise.level}

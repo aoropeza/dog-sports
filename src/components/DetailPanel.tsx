@@ -6,6 +6,7 @@ import type { Knowledge } from "@/types/knowledge";
 import { useAppStore } from "@/store/useAppStore";
 import { getPillarAccent, LEVEL_ACCENTS } from "@/lib/colors";
 import { PILLAR_ICONS } from "@/lib/pillarIcons";
+import { hasMultipleLevels } from "@/lib/filter";
 
 function Field({ icon: Icon, label, value, accent }: { icon: typeof Wrench; label: string; value: string; accent: string }) {
   if (!value) return null;
@@ -104,12 +105,14 @@ export function DetailPanel({ knowledge }: { knowledge: Knowledge }) {
                   <div className="flex-1 overflow-y-auto px-4 py-4">
                     <div className="mb-1 flex items-center gap-2">
                       <span className="font-mono text-[12.5px] text-[var(--fg-muted)]">#{String(match.exercise.order).padStart(2, "0")}</span>
-                      <span
-                        className="rounded-full px-2 py-0.5 text-[11.5px] font-semibold uppercase tracking-wide"
-                        style={{ background: level.soft, color: level.hex }}
-                      >
-                        {match.exercise.level}
-                      </span>
+                      {hasMultipleLevels(match.pillar) && (
+                        <span
+                          className="rounded-full px-2 py-0.5 text-[11.5px] font-semibold uppercase tracking-wide"
+                          style={{ background: level.soft, color: level.hex }}
+                        >
+                          {match.exercise.level}
+                        </span>
+                      )}
                     </div>
                     <h2 className="text-[18px] font-semibold leading-snug text-[var(--fg)]">{match.exercise.title}</h2>
 

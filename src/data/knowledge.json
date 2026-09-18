@@ -4,7 +4,7 @@
   "closingNote": "La presa es la motivación para alcanzar el objeto; la mordida es la técnica para agarrarlo y transportarlo.",
   "stats": {
     "pillarCount": 9,
-    "exerciseCount": 107
+    "exerciseCount": 91
   },
   "pillars": [
     {
@@ -569,9 +569,9 @@
       },
       "levelCounts": {
         "Básico": 4,
-        "Intermedio": 4
+        "Intermedio": 5
       },
-      "exerciseCount": 8,
+      "exerciseCount": 9,
       "exercises": [
         {
           "id": "seguimiento-01",
@@ -607,15 +607,15 @@
           "id": "seguimiento-03",
           "pillarId": "seguimiento",
           "order": 3,
-          "title": "Entrada entre las piernas",
+          "title": "Posiciones (sentado, echado y de pie)",
           "level": "Básico",
-          "implemento": "Premios + espacio suficiente para el tamaño del perro.",
-          "descripcion": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
-          "criterio": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos.",
+          "implemento": "Premios pequeños.",
+          "descripcion": "Enseñar las tres posiciones básicas -sentado, echado y de pie- guiando con la mano y un premio, sin necesidad de que el perro esté en movimiento. Practicar cada posición por separado desde varios puntos de partida y luego alternar entre las tres en distinto orden.",
+          "criterio": "Adopta la posición indicada guiado solo por la mano, sin contacto físico, en 4 de 5 intentos por posición.",
           "fields": {
-            "Implemento": "Premios + espacio suficiente para el tamaño del perro.",
-            "Descripción": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
-            "Criterio para avanzar": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos."
+            "Implemento": "Premios pequeños.",
+            "Descripción": "Enseñar las tres posiciones básicas -sentado, echado y de pie- guiando con la mano y un premio, sin necesidad de que el perro esté en movimiento. Practicar cada posición por separado desde varios puntos de partida y luego alternar entre las tres en distinto orden.",
+            "Criterio para avanzar": "Adopta la posición indicada guiado solo por la mano, sin contacto físico, en 4 de 5 intentos por posición."
           }
         },
         {
@@ -637,6 +637,21 @@
           "id": "seguimiento-05",
           "pillarId": "seguimiento",
           "order": 5,
+          "title": "Entrada entre las piernas",
+          "level": "Intermedio",
+          "implemento": "Premios + espacio suficiente para el tamaño del perro.",
+          "descripcion": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
+          "criterio": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos.",
+          "fields": {
+            "Implemento": "Premios + espacio suficiente para el tamaño del perro.",
+            "Descripción": "Con el manejador de pie y las piernas separadas, guiar al perro desde atrás hasta que quede entre ellas, mirando hacia delante. Entregar el premio en el centro para evitar que se desplace hacia un lado. Darle espacio para salir antes de repetir.",
+            "Criterio para avanzar": "Entra siguiendo la mano y queda centrado, con las cuatro patas en el suelo y sin empujar al manejador, en 4 de 5 intentos."
+          }
+        },
+        {
+          "id": "seguimiento-06",
+          "pillarId": "seguimiento",
+          "order": 6,
           "title": "Aproximación diagonal a una marca",
           "level": "Intermedio",
           "implemento": "Cinta o marca plana en el suelo + premios.",
@@ -649,9 +664,9 @@
           }
         },
         {
-          "id": "seguimiento-06",
+          "id": "seguimiento-07",
           "pillarId": "seguimiento",
-          "order": 6,
+          "order": 7,
           "title": "Recorrido en ocho alrededor de conos",
           "level": "Intermedio",
           "implemento": "Dos conos separados 2-3 metros + premios.",
@@ -664,9 +679,9 @@
           }
         },
         {
-          "id": "seguimiento-07",
+          "id": "seguimiento-08",
           "pillarId": "seguimiento",
-          "order": 7,
+          "order": 8,
           "title": "Cambio de mano guía en movimiento",
           "level": "Intermedio",
           "implemento": "Premios.",
@@ -679,9 +694,9 @@
           }
         },
         {
-          "id": "seguimiento-08",
+          "id": "seguimiento-09",
           "pillarId": "seguimiento",
-          "order": 8,
+          "order": 9,
           "title": "Redirección con gesto breve y mano vacía",
           "level": "Intermedio",
           "implemento": "Premios guardados + marca plana de llegada.",
@@ -990,220 +1005,38 @@
         "Avanzado": "máxima carga y resistencia funcional, en perros ya bien acondicionados a este tipo de trabajo."
       },
       "levelCounts": {
-        "Básico": 4,
-        "Intermedio": 5,
-        "Avanzado": 5
+        "Básico": 2
       },
-      "exerciseCount": 14,
+      "exerciseCount": 2,
       "exercises": [
         {
           "id": "fuerza-01",
           "pillarId": "fuerza",
           "order": 1,
-          "title": "Arrastre plano con carga mínima",
+          "title": "Arrastre con carga progresiva",
           "level": "Básico",
-          "implemento": "Arnés de tiro adecuado + carga muy ligera (llanta pequeña o tabla con poco peso).",
-          "descripcion": "El perro camina en línea recta sobre terreno plano, arrastrando la carga a paso lento y controlado.",
-          "criterio": "Camina con tracción constante, sin detenerse ni mirar hacia atrás por la carga.",
+          "implemento": "Arnés de tiro + carga ajustable (llanta, tabla o trineo con peso — weight pull), aumentada de forma gradual.",
+          "descripcion": "El perro arrastra una carga con el arnés de tiro, en tramos rectos, con pendiente o con cambios de dirección. La dificultad no está en la variante del recorrido sino en la carga: se comienza con peso mínimo en terreno plano y postura controlada, y se aumenta gradualmente -peso, pendiente y complejidad del trayecto- solo cuando el perro sostiene tracción constante y buena postura sin señales de sobreesfuerzo.",
+          "criterio": "Mantiene tracción constante, postura neutra y ritmo parejo durante todo el tramo, sin detenerse, mirar atrás ni mostrar señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar), sea cual sea la carga actual.",
           "fields": {
-            "Implemento": "Arnés de tiro adecuado + carga muy ligera (llanta pequeña o tabla con poco peso).",
-            "Descripción": "El perro camina en línea recta sobre terreno plano, arrastrando la carga a paso lento y controlado.",
-            "Criterio para avanzar": "Camina con tracción constante, sin detenerse ni mirar hacia atrás por la carga."
+            "Implemento": "Arnés de tiro + carga ajustable (llanta, tabla o trineo con peso — weight pull), aumentada de forma gradual.",
+            "Descripción": "El perro arrastra una carga con el arnés de tiro, en tramos rectos, con pendiente o con cambios de dirección. La dificultad no está en la variante del recorrido sino en la carga: se comienza con peso mínimo en terreno plano y postura controlada, y se aumenta gradualmente -peso, pendiente y complejidad del trayecto- solo cuando el perro sostiene tracción constante y buena postura sin señales de sobreesfuerzo.",
+            "Criterio para avanzar": "Mantiene tracción constante, postura neutra y ritmo parejo durante todo el tramo, sin detenerse, mirar atrás ni mostrar señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar), sea cual sea la carga actual."
           }
         },
         {
           "id": "fuerza-02",
           "pillarId": "fuerza",
           "order": 2,
-          "title": "Sprint corto con paracaídas de resistencia baja",
+          "title": "Sprint resistido con paracaídas",
           "level": "Básico",
-          "implemento": "Pechera con paracaídas de resistencia baja.",
-          "descripcion": "El perro corre en línea recta a distancia corta con el paracaídas enganchado, sintiendo por primera vez la resistencia al arranque y durante la carrera.",
-          "criterio": "Mantiene buena mecánica de carrera (sin echarse hacia adelante en exceso) pese a la resistencia.",
+          "implemento": "Pechera con paracaídas de resistencia ajustable, aumentada de forma gradual.",
+          "descripcion": "El perro corre a máxima velocidad con un paracaídas enganchado a la pechera, que genera resistencia durante la carrera. La dificultad se ajusta con la resistencia del paracaídas y la distancia, no con el ejercicio en sí: se comienza con resistencia baja en tramos cortos y arranque explosivo, y se aumenta gradualmente -resistencia, distancia, cambios de ritmo o de dirección- solo cuando el perro sostiene potencia y técnica de carrera.",
+          "criterio": "Sostiene potencia de arranque y técnica de carrera durante todo el tramo, sin decaer ni comprometer la postura, sea cual sea la resistencia actual del paracaídas.",
           "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia baja.",
-            "Descripción": "El perro corre en línea recta a distancia corta con el paracaídas enganchado, sintiendo por primera vez la resistencia al arranque y durante la carrera.",
-            "Criterio para avanzar": "Mantiene buena mecánica de carrera (sin echarse hacia adelante en exceso) pese a la resistencia."
-          }
-        },
-        {
-          "id": "fuerza-03",
-          "pillarId": "fuerza",
-          "order": 3,
-          "title": "Arrastre a paso controlado (enfoque en postura)",
-          "level": "Básico",
-          "implemento": "Arnés de tiro + carga mínima.",
-          "descripcion": "Mismo arrastre plano, pero el foco aquí es la postura: el manejador observa que el perro no arrastre las patas ni comprima la espalda al tirar.",
-          "criterio": "Mantiene el lomo neutro y el paso parejo durante todo el tramo.",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga mínima.",
-            "Descripción": "Mismo arrastre plano, pero el foco aquí es la postura: el manejador observa que el perro no arrastre las patas ni comprima la espalda al tirar.",
-            "Criterio para avanzar": "Mantiene el lomo neutro y el paso parejo durante todo el tramo."
-          }
-        },
-        {
-          "id": "fuerza-04",
-          "pillarId": "fuerza",
-          "order": 4,
-          "title": "Arranque explosivo con paracaídas mínimo",
-          "level": "Básico",
-          "implemento": "Pechera con paracaídas de resistencia baja.",
-          "descripcion": "Desde posición quieta, el perro arranca con la mayor explosividad posible contra la resistencia mínima del paracaídas, en distancia muy corta.",
-          "criterio": "El primer impulso es potente y decidido, sin titubear por sentir la resistencia detrás.",
-          "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia baja.",
-            "Descripción": "Desde posición quieta, el perro arranca con la mayor explosividad posible contra la resistencia mínima del paracaídas, en distancia muy corta.",
-            "Criterio para avanzar": "El primer impulso es potente y decidido, sin titubear por sentir la resistencia detrás."
-          }
-        },
-        {
-          "id": "fuerza-05",
-          "pillarId": "fuerza",
-          "order": 5,
-          "title": "Arrastre a trote con carga media",
-          "level": "Intermedio",
-          "implemento": "Arnés de tiro + carga media (llanta mediana).",
-          "descripcion": "El perro arrastra la carga a trote controlado (no caminata) en línea recta.",
-          "criterio": "Sostiene el trote parejo durante todo el tramo sin bajar a caminata por el esfuerzo.",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga media (llanta mediana).",
-            "Descripción": "El perro arrastra la carga a trote controlado (no caminata) en línea recta.",
-            "Criterio para avanzar": "Sostiene el trote parejo durante todo el tramo sin bajar a caminata por el esfuerzo."
-          }
-        },
-        {
-          "id": "fuerza-06",
-          "pillarId": "fuerza",
-          "order": 6,
-          "title": "Sprint a distancia media con paracaídas medio",
-          "level": "Intermedio",
-          "implemento": "Pechera con paracaídas de resistencia media.",
-          "descripcion": "El perro corre a distancia media con mayor resistencia, exigiendo más potencia de arranque y sostenimiento de velocidad.",
-          "criterio": "Sostiene el ritmo de carrera durante todo el tramo sin perder potencia hacia el final.",
-          "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia media.",
-            "Descripción": "El perro corre a distancia media con mayor resistencia, exigiendo más potencia de arranque y sostenimiento de velocidad.",
-            "Criterio para avanzar": "Sostiene el ritmo de carrera durante todo el tramo sin perder potencia hacia el final."
-          }
-        },
-        {
-          "id": "fuerza-07",
-          "pillarId": "fuerza",
-          "order": 7,
-          "title": "Arrastre en subida leve",
-          "level": "Intermedio",
-          "implemento": "Arnés de tiro + carga ligera-media + pendiente suave.",
-          "descripcion": "El perro arrastra la carga cuesta arriba, combinando la resistencia del arrastre con la exigencia de la inclinación.",
-          "criterio": "Completa el tramo sin detenerse ni perder tracción a mitad de la subida.",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga ligera-media + pendiente suave.",
-            "Descripción": "El perro arrastra la carga cuesta arriba, combinando la resistencia del arrastre con la exigencia de la inclinación.",
-            "Criterio para avanzar": "Completa el tramo sin detenerse ni perder tracción a mitad de la subida."
-          }
-        },
-        {
-          "id": "fuerza-08",
-          "pillarId": "fuerza",
-          "order": 8,
-          "title": "Sprint con cambio de ritmo",
-          "level": "Intermedio",
-          "implemento": "Pechera con paracaídas de resistencia media.",
-          "descripcion": "El perro corre alternando un arranque explosivo con un tramo de sostenimiento a velocidad constante, todo contra la resistencia del paracaídas.",
-          "criterio": "Mantiene potencia tanto en el arranque como en el tramo sostenido, sin decaer entre ambas fases.",
-          "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia media.",
-            "Descripción": "El perro corre alternando un arranque explosivo con un tramo de sostenimiento a velocidad constante, todo contra la resistencia del paracaídas.",
-            "Criterio para avanzar": "Mantiene potencia tanto en el arranque como en el tramo sostenido, sin decaer entre ambas fases."
-          }
-        },
-        {
-          "id": "fuerza-09",
-          "pillarId": "fuerza",
-          "order": 9,
-          "title": "Arrastre con cambio de dirección leve",
-          "level": "Intermedio",
-          "implemento": "Arnés de tiro + carga media + un giro suave marcado en el trayecto.",
-          "descripcion": "El perro arrastra la carga y ejecuta un cambio de dirección controlado a mitad del trayecto, sin perder tracción ni postura.",
-          "criterio": "Mantiene tracción y equilibrio durante el giro, sin frenar en seco ni desviarse de más.",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga media + un giro suave marcado en el trayecto.",
-            "Descripción": "El perro arrastra la carga y ejecuta un cambio de dirección controlado a mitad del trayecto, sin perder tracción ni postura.",
-            "Criterio para avanzar": "Mantiene tracción y equilibrio durante el giro, sin frenar en seco ni desviarse de más."
-          }
-        },
-        {
-          "id": "fuerza-10",
-          "pillarId": "fuerza",
-          "order": 10,
-          "title": "Arrastre pesado a trote sostenido",
-          "level": "Avanzado",
-          "implemento": "Arnés de tiro + carga alta (llanta grande o trineo con peso — weight pull).",
-          "descripcion": "El perro arrastra una carga considerable a trote sostenido en línea recta.",
-          "criterio": "Mantiene tracción constante y buena postura sin señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar).",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga alta (llanta grande o trineo con peso — weight pull).",
-            "Descripción": "El perro arrastra una carga considerable a trote sostenido en línea recta.",
-            "Criterio para avanzar": "Mantiene tracción constante y buena postura sin señales de sobreesfuerzo (jadeo excesivo, cojera, dudar en continuar)."
-          }
-        },
-        {
-          "id": "fuerza-11",
-          "pillarId": "fuerza",
-          "order": 11,
-          "title": "Sprint a máxima resistencia",
-          "level": "Avanzado",
-          "implemento": "Pechera con paracaídas de resistencia alta.",
-          "descripcion": "El perro corre a máxima velocidad posible contra la resistencia más alta del paracaídas, en distancia corta-media.",
-          "criterio": "Mantiene técnica de carrera y potencia de arranque pese a la resistencia máxima, sin comprometer la postura.",
-          "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia alta.",
-            "Descripción": "El perro corre a máxima velocidad posible contra la resistencia más alta del paracaídas, en distancia corta-media.",
-            "Criterio para avanzar": "Mantiene técnica de carrera y potencia de arranque pese a la resistencia máxima, sin comprometer la postura."
-          }
-        },
-        {
-          "id": "fuerza-12",
-          "pillarId": "fuerza",
-          "order": 12,
-          "title": "Arrastre en cuesta pronunciada",
-          "level": "Avanzado",
-          "implemento": "Arnés de tiro + carga media-alta + pendiente considerable.",
-          "descripcion": "El perro arrastra la carga cuesta arriba en una pendiente exigente, combinando gravedad y resistencia de arrastre.",
-          "criterio": "Completa el tramo con tracción constante, sin perder ritmo ni detenerse.",
-          "fields": {
-            "Implemento": "Arnés de tiro + carga media-alta + pendiente considerable.",
-            "Descripción": "El perro arrastra la carga cuesta arriba en una pendiente exigente, combinando gravedad y resistencia de arrastre.",
-            "Criterio para avanzar": "Completa el tramo con tracción constante, sin perder ritmo ni detenerse."
-          }
-        },
-        {
-          "id": "fuerza-13",
-          "pillarId": "fuerza",
-          "order": 13,
-          "title": "Circuito combinado (arrastre + sprint)",
-          "level": "Avanzado",
-          "implemento": "Arnés de tiro con carga media + pechera con paracaídas, usados en secuencia dentro de la misma sesión.",
-          "descripcion": "El perro completa un tramo de arrastre y, tras un breve descanso, un sprint con paracaídas — enlazando ambos tipos de resistencia en la misma sesión de trabajo.",
-          "criterio": "Mantiene calidad de esfuerzo similar en ambas fases, sin que el arrastre previo comprometa el sprint.",
-          "fields": {
-            "Implemento": "Arnés de tiro con carga media + pechera con paracaídas, usados en secuencia dentro de la misma sesión.",
-            "Descripción": "El perro completa un tramo de arrastre y, tras un breve descanso, un sprint con paracaídas — enlazando ambos tipos de resistencia en la misma sesión de trabajo.",
-            "Criterio para avanzar": "Mantiene calidad de esfuerzo similar en ambas fases, sin que el arrastre previo comprometa el sprint."
-          }
-        },
-        {
-          "id": "fuerza-14",
-          "pillarId": "fuerza",
-          "order": 14,
-          "title": "Sprint con paracaídas y cambio de dirección",
-          "level": "Avanzado",
-          "implemento": "Pechera con paracaídas de resistencia alta.",
-          "descripcion": "El perro corre a máxima velocidad contra la resistencia y ejecuta un cambio de dirección controlado a mitad del sprint, sin perder potencia.",
-          "criterio": "El cambio de dirección es limpio y potente incluso bajo la resistencia máxima del paracaídas.",
-          "fields": {
-            "Implemento": "Pechera con paracaídas de resistencia alta.",
-            "Descripción": "El perro corre a máxima velocidad contra la resistencia y ejecuta un cambio de dirección controlado a mitad del sprint, sin perder potencia.",
-            "Criterio para avanzar": "El cambio de dirección es limpio y potente incluso bajo la resistencia máxima del paracaídas."
+            "Implemento": "Pechera con paracaídas de resistencia ajustable, aumentada de forma gradual.",
+            "Descripción": "El perro corre a máxima velocidad con un paracaídas enganchado a la pechera, que genera resistencia durante la carrera. La dificultad se ajusta con la resistencia del paracaídas y la distancia, no con el ejercicio en sí: se comienza con resistencia baja en tramos cortos y arranque explosivo, y se aumenta gradualmente -resistencia, distancia, cambios de ritmo o de dirección- solo cuando el perro sostiene potencia y técnica de carrera.",
+            "Criterio para avanzar": "Sostiene potencia de arranque y técnica de carrera durante todo el tramo, sin decaer ni comprometer la postura, sea cual sea la resistencia actual del paracaídas."
           }
         }
       ]
@@ -1500,130 +1333,53 @@
       ],
       "levelObjectives": {},
       "levelCounts": {
-        "Básico": 2,
-        "Intermedio": 3,
-        "Avanzado": 3
+        "Básico": 3
       },
-      "exerciseCount": 8,
+      "exerciseCount": 3,
       "exercises": [
         {
           "id": "resistencia-01",
           "pillarId": "resistencia",
           "order": 1,
-          "title": "Carrera junto a bicicleta (distancia corta)",
+          "title": "Carrera junto a bicicleta",
           "level": "Básico",
-          "implemento": "Bicicleta + enganche especializado para bici.",
-          "descripcion": "El perro corre a paso parejo junto a la bicicleta en terreno plano, a velocidad cómoda y constante.",
-          "criterio": "Mantiene el ritmo parejo sin jadeo excesivo ni necesidad de parar antes de terminar.",
+          "implemento": "Bicicleta + enganche especializado para bici (tipo \"springer\") fijo al cuadro.",
+          "descripcion": "El perro corre a paso parejo junto a la bicicleta, con enganche especializado. La dificultad no está en el ejercicio sino en la distancia y la velocidad: se comienza en terreno plano, a ritmo cómodo y distancia corta, y se aumenta gradualmente -distancia, velocidad y desnivel- solo cuando el perro sostiene el ritmo sin señales de fatiga.",
+          "criterio": "Mantiene el ritmo de principio a fin, sin jadeo excesivo, bajar la cabeza ni aflojar el paso, sea cual sea la distancia o velocidad actual.",
           "fields": {
-            "Implemento": "Bicicleta + enganche especializado para bici.",
-            "Descripción": "El perro corre a paso parejo junto a la bicicleta en terreno plano, a velocidad cómoda y constante.",
-            "Criterio para avanzar": "Mantiene el ritmo parejo sin jadeo excesivo ni necesidad de parar antes de terminar."
+            "Implemento": "Bicicleta + enganche especializado para bici (tipo \"springer\") fijo al cuadro.",
+            "Descripción": "El perro corre a paso parejo junto a la bicicleta, con enganche especializado. La dificultad no está en el ejercicio sino en la distancia y la velocidad: se comienza en terreno plano, a ritmo cómodo y distancia corta, y se aumenta gradualmente -distancia, velocidad y desnivel- solo cuando el perro sostiene el ritmo sin señales de fatiga.",
+            "Criterio para avanzar": "Mantiene el ritmo de principio a fin, sin jadeo excesivo, bajar la cabeza ni aflojar el paso, sea cual sea la distancia o velocidad actual."
           }
         },
         {
           "id": "resistencia-02",
           "pillarId": "resistencia",
           "order": 2,
-          "title": "Persecución repetida de baja intensidad (volumen)",
+          "title": "Persecución repetida (volumen)",
           "level": "Básico",
-          "implemento": "Pelota de tenis o disco.",
-          "descripcion": "El manejador presenta el objeto rodándolo por el piso o entregándolo directamente de la mano (sin lanzar), repitiendo el ciclo muchas veces a corta-media distancia; el perro persigue y regresa una y otra vez. El volumen de repeticiones es lo que genera la carga cardiovascular, no la intensidad de cada una.",
-          "criterio": "Mantiene velocidad e interés constante durante toda la sesión, sin decaer hacia el final.",
+          "implemento": "Pelota, disco o juguete de lanzamiento.",
+          "descripcion": "El manejador activa el objeto de forma repetida para que el perro persiga una y otra vez, generando carga cardiovascular por volumen de repeticiones más que por intensidad individual. La dificultad se ajusta con la forma de presentación -tomado de la mano es lo más fácil, rodado por el piso es intermedio, lanzado por el aire es lo más exigente- y con el número de repeticiones y el tiempo total de la sesión, no con el ejercicio en sí.",
+          "criterio": "Mantiene la misma velocidad e interés en la última repetición que en la primera, sin caída notable de rendimiento, sea cual sea la presentación o el volumen actual.",
           "fields": {
-            "Implemento": "Pelota de tenis o disco.",
-            "Descripción": "El manejador presenta el objeto rodándolo por el piso o entregándolo directamente de la mano (sin lanzar), repitiendo el ciclo muchas veces a corta-media distancia; el perro persigue y regresa una y otra vez. El volumen de repeticiones es lo que genera la carga cardiovascular, no la intensidad de cada una.",
-            "Criterio para avanzar": "Mantiene velocidad e interés constante durante toda la sesión, sin decaer hacia el final."
+            "Implemento": "Pelota, disco o juguete de lanzamiento.",
+            "Descripción": "El manejador activa el objeto de forma repetida para que el perro persiga una y otra vez, generando carga cardiovascular por volumen de repeticiones más que por intensidad individual. La dificultad se ajusta con la forma de presentación -tomado de la mano es lo más fácil, rodado por el piso es intermedio, lanzado por el aire es lo más exigente- y con el número de repeticiones y el tiempo total de la sesión, no con el ejercicio en sí.",
+            "Criterio para avanzar": "Mantiene la misma velocidad e interés en la última repetición que en la primera, sin caída notable de rendimiento, sea cual sea la presentación o el volumen actual."
           }
         },
         {
           "id": "resistencia-03",
           "pillarId": "resistencia",
           "order": 3,
-          "title": "Carrera sostenida con bicicleta (distancia media)",
-          "level": "Intermedio",
-          "implemento": "Bicicleta + enganche especializado.",
-          "descripcion": "Carrera sostenida a mayor distancia y con tramos de velocidad ligeramente más alta que en el nivel básico.",
-          "criterio": "Mantiene el ritmo sin señales de fatiga marcada (jadeo excesivo, bajar la cabeza, aflojar el paso) antes del final.",
-          "fields": {
-            "Implemento": "Bicicleta + enganche especializado.",
-            "Descripción": "Carrera sostenida a mayor distancia y con tramos de velocidad ligeramente más alta que en el nivel básico.",
-            "Criterio para avanzar": "Mantiene el ritmo sin señales de fatiga marcada (jadeo excesivo, bajar la cabeza, aflojar el paso) antes del final."
-          }
-        },
-        {
-          "id": "resistencia-04",
-          "pillarId": "resistencia",
-          "order": 4,
-          "title": "Intervalos cortos (sprint-descanso)",
-          "level": "Intermedio",
+          "title": "Intervalos de sprint",
+          "level": "Básico",
           "implemento": "Ninguno o pelota de lanzamiento.",
-          "descripcion": "Alterna sprints cortos de alta intensidad con periodos de descanso activo (caminata) entre cada uno.",
-          "criterio": "La velocidad del último sprint es comparable a la del primero.",
+          "descripcion": "El perro alterna sprints cortos a máxima intensidad con periodos de descanso, breves o activos. La dificultad se ajusta con la intensidad del sprint y la duración del descanso entre repeticiones -se comienza con descansos generosos y se acortan gradualmente conforme el perro se acondiciona-, no con el ejercicio en sí.",
+          "criterio": "La velocidad del último sprint es comparable a la del primero, sin caída de intensidad entre repeticiones, sea cual sea la duración del descanso.",
           "fields": {
             "Implemento": "Ninguno o pelota de lanzamiento.",
-            "Descripción": "Alterna sprints cortos de alta intensidad con periodos de descanso activo (caminata) entre cada uno.",
-            "Criterio para avanzar": "La velocidad del último sprint es comparable a la del primero."
-          }
-        },
-        {
-          "id": "resistencia-05",
-          "pillarId": "resistencia",
-          "order": 5,
-          "title": "Persecución repetida a mayor volumen (terreno plano)",
-          "level": "Intermedio",
-          "implemento": "Dos pelotas o discos (para alternar el lanzamiento sin pausas de recolección).",
-          "descripcion": "El manejador alterna el lanzamiento del objeto por el aire (mayor exigencia que rodarlo) entre dos objetos, para que el perro esté en movimiento casi continuo, aumentando tanto el volumen como la intensidad por repetición respecto al nivel básico.",
-          "criterio": "Mantiene el mismo ritmo de persecución en el minuto 15 que en el minuto 1.",
-          "fields": {
-            "Implemento": "Dos pelotas o discos (para alternar el lanzamiento sin pausas de recolección).",
-            "Descripción": "El manejador alterna el lanzamiento del objeto por el aire (mayor exigencia que rodarlo) entre dos objetos, para que el perro esté en movimiento casi continuo, aumentando tanto el volumen como la intensidad por repetición respecto al nivel básico.",
-            "Criterio para avanzar": "Mantiene el mismo ritmo de persecución en el minuto 15 que en el minuto 1."
-          }
-        },
-        {
-          "id": "resistencia-06",
-          "pillarId": "resistencia",
-          "order": 6,
-          "title": "Carrera sostenida con bicicleta (distancia larga)",
-          "level": "Avanzado",
-          "implemento": "Bicicleta + enganche especializado.",
-          "descripcion": "Sesión larga a velocidad sostenida, superior a la del nivel intermedio, en terreno plano o con desnivel leve.",
-          "criterio": "Mantiene el ritmo de principio a fin sin necesidad de bajar la velocidad hacia el final.",
-          "fields": {
-            "Implemento": "Bicicleta + enganche especializado.",
-            "Descripción": "Sesión larga a velocidad sostenida, superior a la del nivel intermedio, en terreno plano o con desnivel leve.",
-            "Criterio para avanzar": "Mantiene el ritmo de principio a fin sin necesidad de bajar la velocidad hacia el final."
-          }
-        },
-        {
-          "id": "resistencia-07",
-          "pillarId": "resistencia",
-          "order": 7,
-          "title": "Intervalos de alta intensidad",
-          "level": "Avanzado",
-          "implemento": "Ninguno o pelota de lanzamiento.",
-          "descripcion": "Sprints repetidos a máxima intensidad con descansos muy cortos, simulando la exigencia de esfuerzos repetidos en poco tiempo.",
-          "criterio": "Mantiene velocidad e intensidad consistentes en todas las repeticiones, incluso las últimas.",
-          "fields": {
-            "Implemento": "Ninguno o pelota de lanzamiento.",
-            "Descripción": "Sprints repetidos a máxima intensidad con descansos muy cortos, simulando la exigencia de esfuerzos repetidos en poco tiempo.",
-            "Criterio para avanzar": "Mantiene velocidad e intensidad consistentes en todas las repeticiones, incluso las últimas."
-          }
-        },
-        {
-          "id": "resistencia-08",
-          "pillarId": "resistencia",
-          "order": 8,
-          "title": "Serie consecutiva de alta exigencia (simulación de carga competitiva)",
-          "level": "Avanzado",
-          "implemento": "Pelota o juguete de lanzamiento.",
-          "descripcion": "Múltiples repeticiones de carrera a máxima velocidad, siempre con el objeto lanzado por el aire (máxima exigencia de presentación), con descansos mínimos, simulando el desgaste acumulado de una jornada de competencia con varias corridas seguidas.",
-          "criterio": "La velocidad y técnica se mantienen estables hasta la última repetición, sin caída notable de rendimiento.",
-          "fields": {
-            "Implemento": "Pelota o juguete de lanzamiento.",
-            "Descripción": "Múltiples repeticiones de carrera a máxima velocidad, siempre con el objeto lanzado por el aire (máxima exigencia de presentación), con descansos mínimos, simulando el desgaste acumulado de una jornada de competencia con varias corridas seguidas.",
-            "Criterio para avanzar": "La velocidad y técnica se mantienen estables hasta la última repetición, sin caída notable de rendimiento."
+            "Descripción": "El perro alterna sprints cortos a máxima intensidad con periodos de descanso, breves o activos. La dificultad se ajusta con la intensidad del sprint y la duración del descanso entre repeticiones -se comienza con descansos generosos y se acortan gradualmente conforme el perro se acondiciona-, no con el ejercicio en sí.",
+            "Criterio para avanzar": "La velocidad del último sprint es comparable a la del primero, sin caída de intensidad entre repeticiones, sea cual sea la duración del descanso."
           }
         }
       ]
