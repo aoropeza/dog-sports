@@ -6,24 +6,13 @@ import type { Knowledge } from "@/types/knowledge";
 import { Toolbar, FilterBar } from "@/components/Toolbar";
 import { BoardView } from "@/components/BoardView";
 import { DetailPanel } from "@/components/DetailPanel";
+import { SessionPicker } from "@/components/sessions/SessionPicker";
 import { useAppStore } from "@/store/useAppStore";
 
 const knowledge = knowledgeData as unknown as Knowledge;
 
 export default function Home() {
-  const theme = useAppStore((s) => s.theme);
-  const setTheme = useAppStore((s) => s.setTheme);
   const selectExercise = useAppStore((s) => s.selectExercise);
-
-  useEffect(() => {
-    const stored = window.localStorage.getItem("theme");
-    if (stored === "dark" || stored === "light") setTheme(stored);
-  }, [setTheme]);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    window.localStorage.setItem("theme", theme);
-  }, [theme]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -40,6 +29,7 @@ export default function Home() {
       <div className="relative flex-1 overflow-hidden">
         <BoardView knowledge={knowledge} />
         <DetailPanel knowledge={knowledge} />
+        <SessionPicker />
       </div>
     </div>
   );
