@@ -10,6 +10,14 @@ const nextConfig: NextConfig = {
   // and nests the standalone output under .next/standalone/app/server.js
   // instead of .next/standalone/server.js — breaking run.sh's `node server.js`.
   outputFileTracingRoot: path.join(__dirname),
+  experimental: {
+    serverActions: {
+      // Behind CloudFront the request's Origin (the *.cloudfront.net domain)
+      // never matches the Lambda Function URL host the server sees, so Next
+      // rejects every server action as a cross-origin request unless allowed.
+      allowedOrigins: ["**.cloudfront.net"],
+    },
+  },
 };
 
 export default nextConfig;
