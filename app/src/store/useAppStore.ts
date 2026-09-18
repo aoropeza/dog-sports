@@ -16,6 +16,13 @@ interface AppState {
   selectedExerciseId: string | null;
   selectExercise: (id: string | null) => void;
 
+  /** Multi-select mode used to pick exercises for a training session. */
+  selectMode: boolean;
+  toggleSelectMode: () => void;
+  draftIds: Set<string>;
+  toggleDraft: (id: string) => void;
+  clearDraft: () => void;
+
   search: string;
   setSearch: (q: string) => void;
 
@@ -48,6 +55,18 @@ export const useAppStore = create<AppState>((set, get) => ({
 
   selectedExerciseId: null,
   selectExercise: (id) => set({ selectedExerciseId: id }),
+
+  selectMode: false,
+  toggleSelectMode: () => set((state) => ({ selectMode: !state.selectMode, draftIds: new Set() })),
+  draftIds: new Set(),
+  toggleDraft: (id) =>
+    set((state) => {
+      const next = new Set(state.draftIds);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return { draftIds: next };
+    }),
+  clearDraft: () => set({ draftIds: new Set(), selectMode: false }),
 
   search: "",
   setSearch: (search) => set({ search }),

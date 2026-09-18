@@ -23,8 +23,26 @@ code and `.next/static` to S3 (served by CloudFront on `/_next/static/*`,
 bypassing the Lambda for those hashed, cacheable assets).
 
 This mirrors citius's deployment shape, minus what this app doesn't need:
-no VPC (no private database to reach), no DynamoDB cache table (no
-ISR/revalidation), no Route53/ACM (no domain picked yet).
+no VPC (DynamoDB is reached over its public endpoint), no DynamoDB cache
+table (no ISR/revalidation), no Route53/ACM (no domain picked yet).
+
+## Training sessions (DynamoDB)
+
+`/sesiones` lets the user save exercises picked on the board into training
+sessions. Data lives in one DynamoDB table, `training-sessions-<STAGE>`
+(created by the CDK stack, retained on destroy). The app talks to it through
+server actions in `app/src/lib/actions/sessions.ts`, consumed from client
+components with the `useServerAction` hook (`app/src/hooks/useServerAction.ts`,
+same pattern as citius). Bump a counter passed in `extraDeps` to refetch after
+a mutation.
+
+Running locally hits the deployed `develop` table: `app/.env.local` (gitignored)
+sets `MACHINE=local` and `STAGE=develop`, and the actions then read the
+`dogsports` profile from `~/.aws/credentials` (override with `AWS_PROFILE_NAME`,
+region defaults to `us-east-1`). Just `npm run dev`.
+
+There is no authentication: anyone with the CloudFront URL can read and edit
+sessions.
 
 See `@app/AGENTS.md` for Next.js-specific agent rules.
 

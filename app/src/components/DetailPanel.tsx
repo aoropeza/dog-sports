@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { X, ChevronUp, ChevronDown, Wrench, ClipboardList, CheckCircle2, Eye } from "lucide-react";
+import { X, ChevronUp, ChevronDown, Wrench, ClipboardList, CheckCircle2, Eye, Plus, Check } from "lucide-react";
 import type { Knowledge } from "@/types/knowledge";
 import { useAppStore } from "@/store/useAppStore";
 import { getPillarAccent, LEVEL_ACCENTS } from "@/lib/colors";
@@ -26,6 +26,8 @@ function Field({ icon: Icon, label, value, accent }: { icon: typeof Wrench; labe
 export function DetailPanel({ knowledge }: { knowledge: Knowledge }) {
   const selectedId = useAppStore((s) => s.selectedExerciseId);
   const selectExercise = useAppStore((s) => s.selectExercise);
+  const draftIds = useAppStore((s) => s.draftIds);
+  const toggleDraft = useAppStore((s) => s.toggleDraft);
 
   const match = selectedId
     ? knowledge.pillars
@@ -134,6 +136,26 @@ export function DetailPanel({ knowledge }: { knowledge: Knowledge }) {
                         </p>
                       )}
                     </div>
+                  </div>
+
+                  <div className="border-t border-[var(--panel-border)] px-4 py-3">
+                    {(() => {
+                      const drafted = draftIds.has(match.exercise.id);
+                      return (
+                        <button
+                          onClick={() => toggleDraft(match.exercise.id)}
+                          className="flex h-10 w-full items-center justify-center gap-2 rounded-xl text-[14px] font-semibold"
+                          style={
+                            drafted
+                              ? { background: accent.soft, color: accent.hex }
+                              : { background: accent.hex, color: "#fff" }
+                          }
+                        >
+                          {drafted ? <Check size={15} /> : <Plus size={15} />}
+                          {drafted ? "En la selección" : "Añadir a sesión"}
+                        </button>
+                      );
+                    })()}
                   </div>
                 </>
               );
